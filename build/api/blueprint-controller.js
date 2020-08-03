@@ -1,16 +1,10 @@
 "use strict";
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result["default"] = mod;
-    return result;
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 var blueprint_1 = require("./models/blueprint");
+var index_1 = require("../../../blueprintnotincluded-lib/index");
 var user_1 = require("./models/user");
 var batch_utils_1 = require("./batch/batch-utils");
-var sharedBlueprint = __importStar(require("./shared/blueprint/blueprint"));
+var pixi_backend_1 = require("../pixi-backend");
 var BlueprintController = /** @class */ (function () {
     function BlueprintController() {
     }
@@ -148,22 +142,44 @@ var BlueprintController = /** @class */ (function () {
         else {
             // TODO checks here
             var id = req.params.id;
-            var userId_2 = req.query.userId;
+            var userId = req.query.userId;
             blueprint_1.BlueprintModel.model.find({ _id: id })
                 .then(function (blueprints) {
                 if (blueprints.length > 0) {
                     var blueprint = blueprints[0];
-                    var likedByMe = false;
-                    if (userId_2 != null && blueprint.likes != null && blueprint.likes.indexOf(userId_2) != -1)
-                        likedByMe = true;
-                    var nbLikes = 0;
-                    if (blueprint.likes != null)
-                        nbLikes = blueprint.likes.length;
                     var mdbBlueprint = blueprint.data;
-                    var angularBlueprint = new sharedBlueprint.Blueprint();
+                    var angularBlueprint = new index_1.Blueprint();
                     angularBlueprint.importFromMdb(mdbBlueprint);
                     var bniBlueprint = angularBlueprint.toBniBlueprint(blueprint.name);
                     res.json(bniBlueprint);
+                }
+                else
+                    res.status(500).json({ getBlueprint: 'ERROR' });
+            })
+                .catch(function (err) {
+                console.log('Blueprint find error');
+                console.log(err);
+                res.status(500).json({ getBlueprint: 'ERROR' });
+            });
+        }
+    };
+    BlueprintController.prototype.getBlueprintThumbnail = function (req, res) {
+        console.log('getBlueprintThumbnail' + req.clientIp);
+        if (blueprint_1.BlueprintModel.model == null)
+            res.status(503).send();
+        else {
+            // TODO checks here
+            var id = req.params.id;
+            var userId = req.query.userId;
+            blueprint_1.BlueprintModel.model.find({ _id: id })
+                .then(function (blueprints) {
+                if (blueprints.length > 0) {
+                    var blueprint = blueprints[0];
+                    var mdbBlueprint = blueprint.data;
+                    var angularBlueprint = new index_1.Blueprint();
+                    angularBlueprint.importFromMdb(mdbBlueprint);
+                    pixi_backend_1.PixiBackend.pixiBackend.generateThumbnail(angularBlueprint);
+                    res.json({ status: 'ok' });
                 }
                 else
                     res.status(500).json({ getBlueprint: 'ERROR' });
@@ -184,10 +200,10 @@ var BlueprintController = /** @class */ (function () {
             var filterName = void 0;
             var getDuplicates = void 0;
             var dateFilter = new Date();
-            var userId_3 = '';
+            var userId_2 = '';
             var userJwt = req.user;
             if (userJwt != null)
-                userId_3 = userJwt._id;
+                userId_2 = userJwt._id;
             try {
                 var dateInt = parseInt(req.query.olderthan);
                 dateFilter.setTime(dateInt);
@@ -210,7 +226,7 @@ var BlueprintController = /** @class */ (function () {
             var browseIncrement = parseInt(process.env.BROWSE_INCREMENT);
             var query = blueprint_1.BlueprintModel.model.find(filter).sort({ createdAt: -1 }).limit(browseIncrement * 2).populate('owner');
             query.then(function (blueprints) {
-                BlueprintController.handleGetBlueprint(req, res, userId_3, blueprints);
+                BlueprintController.handleGetBlueprint(req, res, userId_2, blueprints);
             })
                 .catch(function (err) {
                 console.log('Blueprint find error');

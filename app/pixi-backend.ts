@@ -1,18 +1,47 @@
-import { Blueprint, Vector2, CameraService, Overlay, Display } from '../../blueprintnotincluded-lib';
+import { Blueprint, Vector2, CameraService, Overlay, Display, ImageSource } from '../../blueprintnotincluded-lib';
 import { PixiPolyfill } from '../../blueprintnotincluded-lib/src/drawing/pixi-polyfill';
-var PIXI = require('../../blueprintnotincluded-lib/src/pixi-polyfill')
+import Jimp from 'jimp';
+const fs = require('fs');
+//var PIXI = require('../../blueprintnotincluded-lib/src/pixi-polyfill')
 
 export class PixiBackend
 {
 
   public static pixiBackend: PixiBackend = new PixiBackend();
-  //pixiApp: PIXI.Application
 
   constructor() {
-    //this.pixiApp = PixiPolyfill.pixiPolyfill.pixiApp;
   }
 
-  private bunny: PIXI.Sprite
+  static async initTextures() {
+
+    PixiPolyfill.backend = true;
+
+    let miniTest  = [
+      'repack_74',
+      'repack_76',
+      'repack_77',
+      'repack_82',
+      'repack_83',
+      'repack_86',
+      'repack_90',
+      'repack_95',
+      'repack_96',
+      'repack_97',
+      'repack_98'
+    ];
+
+    console.log('starting render')
+    console.log(new Date());
+    for (let k of ImageSource.keys) {
+    //for (let k of miniTest) {
+      let imageUrl = ImageSource.getUrl(k)!;
+      let brt = await PixiBackend.pixiBackend.getImage(imageUrl);
+      ImageSource.setBaseTexture(k, brt);
+    }
+
+    console.log(new Date());
+    console.log('render done for all');
+  }
 
   generateThumbnail(angularBlueprint: Blueprint) {
     let boundingBox = angularBlueprint.getBoundingBox();
@@ -27,6 +56,10 @@ export class PixiBackend
     if (totalTileSize.x > totalTileSize.y) cameraOffset.y += totalTileSize.x / 2 - totalTileSize.y / 2;
     if (totalTileSize.y > totalTileSize.x) cameraOffset.x += totalTileSize.y / 2 - totalTileSize.x / 2;
 
+    thumbnailTileSize = Math.floor(thumbnailTileSize);
+    cameraOffset.x = Math.floor(cameraOffset.x);
+    cameraOffset.y = Math.floor(cameraOffset.y);
+
     let exportCamera = new CameraService();
     exportCamera.setHardZoom(thumbnailTileSize);
     exportCamera.cameraOffset = cameraOffset;
@@ -39,60 +72,127 @@ export class PixiBackend
     let graphics = PixiPolyfill.pixiPolyfill.getNewGraphics()
     exportCamera.container.addChild(graphics);
 
-    //graphics.beginFill(0xffffff);
-    //graphics.drawRect(0, 0, 200, 200);
-    //graphics.endFill();
+    graphics.beginFill(0xffffff);
+    graphics.drawRect(0, 0, 200, 200);
+    graphics.endFill();
 
     angularBlueprint.blueprintItems.map((item) => { 
       item.updateTileables(angularBlueprint);
       item.drawPixi(exportCamera);
     });
 
-
-    const app = new PIXI.Application({ forceCanvas:true, preserveDrawingBuffer: true });
-    console.log({ "PIXI.Application": !!app });
-    console.log({ canvas: app.view });
-    //if (this.bunny == undefined) this.bunny = PIXI.Sprite.from('bunny.png');
-    //let bunnySrc = "https://pixijs.io/examples/examples/assets/bunny.png";
-    let bunnySrc = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAlCAYAAABcZvm2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWNJREFUeNrsV8sNwjAMbUqBBWACxB2pQ8AKcGALTsAJuDEFB1gBhuDAuWICmICPQh01pXWdJqEFcaglRGRbfonjPLuMc+5QwhjLGEJfZusjxZOL9akZKye9G98vPMfvsAx4qBfKwfzBL9s6uUHpI6U/u7+BKGkNb/H6umtk7MczF0HyfKS4zo/k/4AgTV8DOizrqX8oECgC+MGa8lGJp9sJDiAB8nyqYoglvJOPbP97IqoATGxWVZeXJlMQwYHA3piF8wJIblOVNBBxe3TPMLoHIKtxrbS7AAbBrA4Y5NaPAXf8LjN6wKZ0RaZOnlAFZnuXInVR4FTE6eYp0olPhhshtXsAwY3PquoAJNkIY33U7HTs7hYBwV24ItUKqDwgKF3VzAZ6k8HF+B1BMF8xRJbeJoqMXHZAAQ1kwoluURCdzepEugGEImBrIADB7I4lyfbJLlw92FKE6b5hVd+ktv4vAQYASMWxvlAAvcsAAAAASUVORK5CYII=";
-    let bunnyImage = document.createElement('img');
-    console.log({ bunnyImage, context: app.view.getContext('2d') });
-    bunnyImage.src = bunnySrc;
-
-    if (this.bunny == undefined) this.bunny = PIXI.Sprite.from(bunnySrc);
-
-    const { width, height } = this.bunny
-
-    console.log({ 'sprite dimensions': { width, height } })
-    console.log({ "PIXI.Sprite.from": !!this.bunny });
-
-    /*
-    this.bunny.anchor.set(0.5);
-    this.bunny.x = 50;
-    this.bunny.y = 50;
-    */
-    app.stage.addChild(this.bunny);
-    app.render();
-    const base64 = app.view.toDataURL("image/png", 1);
-    console.log({
-      base64,
-      toDataURL: base64 !== "data:,"
-    });
-    //console.log(this.bunny.texture.baseTexture)
-
     let brt = PixiPolyfill.pixiPolyfill.getNewBaseRenderTexture({width: thumbnailSize, height: thumbnailSize });
     let rt = PixiPolyfill.pixiPolyfill.getNewRenderTexture(brt);
 
-    this.pixiApp.renderer.render(this.pixiApp.stage, rt, false);
-    console.log(this.pixiApp.renderer.plugins.extract.canvas(rt).toDataURL());
-    /*
-    this.pixiApp.renderer.plugins.extract.canvas(rt).toBlob((blob) => { 
-      console.log(blob)
-      
-      let reader = new window.FileReader();
-      reader.onload = () => { console.log(reader.result as string);  };
-      reader.readAsDataURL(blob!);
-    }); 
-    */
+    PixiPolyfill.pixiPolyfill.pixiApp.renderer.render(exportCamera.container, rt, false);
+
+    let base64: string = PixiPolyfill.pixiPolyfill.pixiApp.renderer.plugins.extract.canvas(rt).toDataURL();
+
+    // Memory release
+    exportCamera.container.destroy({children: true});
+    brt.destroy();
+    rt.destroy();
+
+    return base64;
+  }
+
+  async getImage(path: string) {
+
+    let useJsonData = true;
+
+    let data: any = {};
+    let width = 0;
+    let height = 0;
+
+    if (useJsonData) {
+      console.log('reading ' + path.replace('png', 'json'));
+      let rawdata = fs.readFileSync(path.replace('png', 'json'));
+      data = JSON.parse(rawdata);
+      rawdata = null;
+
+      width = data.width;
+      height = data.height;
+    }
+    else {
+      console.log('reading ' + path);
+      data = await Jimp.read(path);
+      width = data.getWidth();
+      height = data.getHeight();
+    }
+
+    let brt = PixiPolyfill.pixiPolyfill.getNewBaseRenderTexture({width: width, height: height });
+    let rt = PixiPolyfill.pixiPolyfill.getNewRenderTexture(brt);
+
+    let graphics = PixiPolyfill.pixiPolyfill.getNewGraphics();
+
+    let container = PixiPolyfill.pixiPolyfill.getNewContainer();
+    container.addChild(graphics);
+
+    let jsonExport: any = {};
+
+    if (!useJsonData) {
+      jsonExport.width = width;
+      jsonExport.height = height;
+      jsonExport.data = [];
+    }
+
+    let index: number = 0;
+    for (let x = 0; x < width; x++)
+      for (let y = 0; y < height; y++) {
+
+        if (useJsonData) {
+          let colorObject: any = {r: 0, g: 0, b: 0, a: 0};
+
+          let bitmapData: number[] = data.data;
+
+          colorObject.r = bitmapData[index]; index++;
+          colorObject.g = bitmapData[index]; index++;
+          colorObject.b = bitmapData[index]; index++;
+          colorObject.a = bitmapData[index]; index++;
+
+          let alpha = colorObject.a;
+
+          let color = Jimp.rgbaToInt(colorObject.r, colorObject.g, colorObject.b, colorObject.a);
+          color = color >> 8;
+
+          graphics.beginFill(color, alpha);
+        }
+        else {
+          let color = data.getPixelColor(x, y);
+          let colorObject = Jimp.intToRGBA(color);
+          let alpha = colorObject.a;
+          color = color >> 8;
+
+          jsonExport.data[index] = colorObject.r; index++;
+          jsonExport.data[index] = colorObject.g; index++;
+          jsonExport.data[index] = colorObject.b; index++;
+          jsonExport.data[index] = colorObject.a; index++;
+
+          graphics.beginFill(color, alpha);
+        }
+        
+
+        
+        graphics.drawRect(x, y, 1, 1);
+        graphics.endFill();
+      }
+
+    if (!useJsonData) {
+      let jsonExportString = JSON.stringify(jsonExport);
+      fs.writeFileSync(path.replace('png', 'json'), jsonExportString);
+    }
+    
+    PixiPolyfill.pixiPolyfill.pixiApp.renderer.render(container, rt, false);
+
+    // Release memory
+    container.destroy({children: true});
+    container = null;
+    rt.destroy();
+    rt = null;
+    data = null;
+    global.gc();
+
+    console.log('render done for ' + path);
+    return brt;
   }
 }

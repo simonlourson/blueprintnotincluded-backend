@@ -208,7 +208,7 @@ export class BlueprintController {
 
           PixiBackend.pixiBackend.generateThumbnail(angularBlueprint);
           
-          res.json({status: ImageSource.getUrl('repack_2')});
+          res.json({status: 'ok'});
         }
         else res.status(500).json({ getBlueprint: 'ERROR' });
       })

@@ -23,12 +23,6 @@ class App
 
   constructor() {
 
-    // Tests PIXI
-
-    // This adds the singleton to the class static field
-    let pixiBackend = new PixiBackend();
-    let pixiPolyfill = new PixiPolyfill();
-
     // initialize configuration
     dotenv.config();
     console.log(process.env.ENV_NAME);
@@ -63,21 +57,6 @@ class App
     OniItem.init();
     OniItem.load(buildings);
 
-    /*
-    for (let k of ImageSource.keys) {
-      let imageUrl = ImageSource.getUrl(k);
-      //console.log(imageUrl)
-      fs.readFile(imageUrl, 'binary', function(error, data) {
-        var buf = new Buffer(data, 'binary');
-        var datastring = buf.toString('base64');
-        ImageSource.setUrl(k, "data:image/png;base64," +datastring);
-        ImageSource.getBaseTexture(k);
-        console.log(k)
-        //console.log("data:image/png;base64," +datastring);
-      });
-
-    } //ImageSource.getBaseTexture(k);
-*/
     // initialize database and authentification middleware
     this.db = new Database();
     this.auth = new Auth();
@@ -89,7 +68,11 @@ class App
     this.app.use(passport.initialize());
     this.routePrv.routes(this.app);
 
+
+    //PixiBackend.initTextures();
+
   }
+
 }
 
 export default new App().app;

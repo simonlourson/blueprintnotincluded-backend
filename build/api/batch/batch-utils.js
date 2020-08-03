@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var vector2_1 = require("../shared/vector2");
+var index_1 = require("../../../../blueprintnotincluded-lib/index");
 var BatchUtils = /** @class */ (function () {
     function BatchUtils() {
     }
@@ -17,7 +17,7 @@ var BatchUtils = /** @class */ (function () {
                 var originalBuilding = originalData.blueprintItems[indexOriginalBuilding];
                 for (var _i = 0, _a = suspectData.blueprintItems; _i < _a.length; _i++) {
                     var suspectBuilding = _a[_i];
-                    if (suspectBuilding.id == originalBuilding.id && vector2_1.Vector2.compare(suspectBuilding.position, originalBuilding.position)) {
+                    if (suspectBuilding.id == originalBuilding.id && index_1.Vector2.compare(suspectBuilding.position, originalBuilding.position)) {
                         nbPresent++;
                         break;
                     }

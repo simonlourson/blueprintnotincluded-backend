@@ -37,6 +37,7 @@ var Routes = /** @class */ (function () {
         app.route("/api/checkusername").get(this.duplicateCheckController.checkUsername);
         app.route("/api/getblueprint/:id").get(this.uploadBlueprintController.getBlueprint);
         app.route("/api/getblueprintmod/:id").get(this.uploadBlueprintController.getBlueprintMod);
+        app.route("/api/getblueprintthumbnail/:id").get(this.uploadBlueprintController.getBlueprintThumbnail);
         app.route("/api/getblueprints").get(this.uploadBlueprintController.getBlueprints);
         // Logged in access
         app.route("/api/getblueprintsSecure").get(auth, this.uploadBlueprintController.getBlueprints);

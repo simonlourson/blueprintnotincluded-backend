@@ -3,8 +3,9 @@ import { UserModel } from './models/user';
 import { BlueprintModel } from './models/blueprint';
 
 
-import { ImageSource } from '../../../blueprintnotincluded-lib';
+import { ImageSource, PixiPolyfill } from '../../../blueprintnotincluded-lib';
 import * as fs from 'fs';
+import { PixiBackend } from '../pixi-backend';
 
 export class Database
 {
@@ -23,23 +24,8 @@ export class Database
       UserModel.init();
       BlueprintModel.init();
 
-      /*
-      require('jsdom-global')()
-      for (let k of ImageSource.keys) {
-        let imageUrl = ImageSource.getUrl(k)!;
-        fs.readFile(imageUrl, 'binary', function(error, data) {
-          var buf = new Buffer(data, 'binary');
-          var datastring = buf.toString('base64');
 
-          let img = window.document.createElement("img");
-          img.src = "data:image/png;base64,"+datastring;
-          window.document.body.appendChild(img);
-          //ImageSource.setUrl(k, "data:image/png;base64,"+datastring);
-          ImageSource.getBaseTextureElement(k, img);
-          console.log(k)
-        });
-      }
-      */
+      
 
     });
     
