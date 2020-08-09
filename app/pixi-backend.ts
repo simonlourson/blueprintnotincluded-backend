@@ -1,8 +1,11 @@
-import { Blueprint, Vector2, CameraService, Overlay, Display, ImageSource } from '../../blueprintnotincluded-lib';
-import { PixiPolyfill } from '../../blueprintnotincluded-lib/src/drawing/pixi-polyfill';
+import { Blueprint, Vector2, CameraService, Overlay, Display, ImageSource, NodeCanvasResource } from '../../blueprintnotincluded-lib';
+//import { PixiPolyfill } from '../../blueprintnotincluded-lib/src/drawing/pixi-polyfill';
 import Jimp from 'jimp';
 const fs = require('fs');
-//var PIXI = require('../../blueprintnotincluded-lib/src/pixi-polyfill')
+const { createCanvas, loadImage } = require('canvas')
+import 'pixi.js-legacy'
+var PIXI = require('pixi.js-legacy')
+require('./canvas.js')
 
 export class PixiBackend
 {
@@ -14,7 +17,7 @@ export class PixiBackend
 
   static async initTextures() {
 
-    PixiPolyfill.backend = true;
+    //PixiPolyfill.backend = true;
 
     let miniTest  = [
       'repack_74',
@@ -33,72 +36,95 @@ export class PixiBackend
     console.log('starting render')
     console.log(new Date());
     for (let k of ImageSource.keys) {
+    // DEBUG remove when done
     //for (let k of miniTest) {
+
+      // DEBUG remove when done
+      //if (k != 'desalinator_0') continue;
+
       let imageUrl = ImageSource.getUrl(k)!;
-      let brt = await PixiBackend.pixiBackend.getImage(imageUrl);
+      let brt = await PixiBackend.pixiBackend.getImageFromCanvas(imageUrl);
       ImageSource.setBaseTexture(k, brt);
     }
 
     console.log(new Date());
     console.log('render done for all');
+
   }
 
-  generateThumbnail(angularBlueprint: Blueprint) {
-    let boundingBox = angularBlueprint.getBoundingBox();
-    let topLeft = boundingBox[0];
-    let bottomRight = boundingBox[1];
-    let totalTileSize = new Vector2(bottomRight.x - topLeft.x + 3, bottomRight.y - topLeft.y + 3);
 
-    let thumbnailSize = 200;
-    let maxTotalSize = Math.max(totalTileSize.x, totalTileSize.y);
-    let thumbnailTileSize = thumbnailSize / maxTotalSize;
-    let cameraOffset = new Vector2(-topLeft.x + 1, bottomRight.y + 1);
-    if (totalTileSize.x > totalTileSize.y) cameraOffset.y += totalTileSize.x / 2 - totalTileSize.y / 2;
-    if (totalTileSize.y > totalTileSize.x) cameraOffset.x += totalTileSize.y / 2 - totalTileSize.x / 2;
 
-    thumbnailTileSize = Math.floor(thumbnailTileSize);
-    cameraOffset.x = Math.floor(cameraOffset.x);
-    cameraOffset.y = Math.floor(cameraOffset.y);
+  async getImageWhite(path: string) {
+    console.log('reading ' + path);
+    let data: Jimp | null = await Jimp.read(path);
+    let width = data.getWidth();
+    let height = data.getHeight();
 
-    let exportCamera = new CameraService();
-    exportCamera.setHardZoom(thumbnailTileSize);
-    exportCamera.cameraOffset = cameraOffset;
-    exportCamera.overlay = Overlay.Base;
-    exportCamera.display = Display.solid;
+    //let brt = PixiPolyfill.pixiPolyfill.getNewBaseRenderTexture({width: width, height: height });
+    //let rt = PixiPolyfill.pixiPolyfill.getNewRenderTexture(brt);
     
-    exportCamera.container = PixiPolyfill.pixiPolyfill.getNewContainer();
-    exportCamera.container.sortableChildren = true;
+    let options = {
+      forceCanvas: true,
+      preserveDrawingBuffer: true
+    }
+    let pixiApp = new PIXI.Application(options);
 
-    let graphics = PixiPolyfill.pixiPolyfill.getNewGraphics()
-    exportCamera.container.addChild(graphics);
+    let brt = new PIXI.BaseRenderTexture({width: width, height: height });
+    let rt = new PIXI.RenderTexture(brt);
 
-    graphics.beginFill(0xffffff);
-    graphics.drawRect(0, 0, 200, 200);
-    graphics.endFill();
+    let graphics = new PIXI.Graphics();
 
-    angularBlueprint.blueprintItems.map((item) => { 
-      item.updateTileables(angularBlueprint);
-      item.drawPixi(exportCamera);
-    });
+    let container = new PIXI.Container();
+    container.addChild(graphics);
 
-    let brt = PixiPolyfill.pixiPolyfill.getNewBaseRenderTexture({width: thumbnailSize, height: thumbnailSize });
+    for (let x = 0; x < width; x++)
+      for (let y = 0; y < height; y++) {
+        let color = data.getPixelColor(x, y);
+        let colorObject = Jimp.intToRGBA(color);
+        let alpha = colorObject.a / 255;
+        graphics.beginFill(0xFFFFFF, alpha);
+        graphics.drawRect(x, y, 1, 1);
+        graphics.endFill();
+      }
+
+    pixiApp.renderer.render(container, rt, false);
+
+    // Release memory
+    container.destroy({children: true});
+    //container = null;
+    rt.destroy();
+    //rt = null;
+    data = null;
+    global.gc();
+
+    //console.log('render done for ' + path);
+    return brt;
+  }
+
+  async getImageFromCanvas(path: string) {
+    console.log('loading image from file : ' + path)
+    let image = await loadImage(path);
+    let ressource = new NodeCanvasResource(image);
+    let bt = new PIXI.BaseTexture(ressource);
+    /*
+    let tImage = PixiPolyfill.pixiPolyfill.getNewTextureWhole(bt);
+    let sprite = PixiPolyfill.pixiPolyfill.getNewSprite(tImage);
+    let container = PixiPolyfill.pixiPolyfill.getNewContainer();
+    container.addChild(sprite);
+    sprite.x = 0;
+    sprite.y = 0;
+    let brt = PixiPolyfill.pixiPolyfill.getNewBaseRenderTexture({width: image.width, height: image.height});
     let rt = PixiPolyfill.pixiPolyfill.getNewRenderTexture(brt);
 
-    PixiPolyfill.pixiPolyfill.pixiApp.renderer.render(exportCamera.container, rt, false);
-
-    let base64: string = PixiPolyfill.pixiPolyfill.pixiApp.renderer.plugins.extract.canvas(rt).toDataURL();
-
-    // Memory release
-    exportCamera.container.destroy({children: true});
-    brt.destroy();
-    rt.destroy();
-
-    return base64;
+    PixiPolyfill.pixiPolyfill.pixiApp.renderer.render(container, rt, true);
+    */
+    return bt;
   }
 
   async getImage(path: string) {
 
-    let useJsonData = true;
+    let useJsonData = false;
+    let writeJsonData = true;
 
     let data: any = {};
     let width = 0;
@@ -120,17 +146,17 @@ export class PixiBackend
       height = data.getHeight();
     }
 
-    let brt = PixiPolyfill.pixiPolyfill.getNewBaseRenderTexture({width: width, height: height });
-    let rt = PixiPolyfill.pixiPolyfill.getNewRenderTexture(brt);
+    let brt = new PIXI.BaseRenderTexture({width: width, height: height });
+    let rt = new PIXI.RenderTexture(brt);
 
-    let graphics = PixiPolyfill.pixiPolyfill.getNewGraphics();
+    let graphics = new PIXI.Graphics();
 
-    let container = PixiPolyfill.pixiPolyfill.getNewContainer();
+    let container = PIXI.Container();
     container.addChild(graphics);
 
     let jsonExport: any = {};
 
-    if (!useJsonData) {
+    if (writeJsonData) {
       jsonExport.width = width;
       jsonExport.height = height;
       jsonExport.data = [];
@@ -150,7 +176,7 @@ export class PixiBackend
           colorObject.b = bitmapData[index]; index++;
           colorObject.a = bitmapData[index]; index++;
 
-          let alpha = colorObject.a;
+          let alpha = colorObject.a / 255;
 
           let color = Jimp.rgbaToInt(colorObject.r, colorObject.g, colorObject.b, colorObject.a);
           color = color >> 8;
@@ -160,13 +186,14 @@ export class PixiBackend
         else {
           let color = data.getPixelColor(x, y);
           let colorObject = Jimp.intToRGBA(color);
-          let alpha = colorObject.a;
-          color = color >> 8;
 
-          jsonExport.data[index] = colorObject.r; index++;
-          jsonExport.data[index] = colorObject.g; index++;
-          jsonExport.data[index] = colorObject.b; index++;
-          jsonExport.data[index] = colorObject.a; index++;
+          let alpha = colorObject.a / 255;
+          
+          if (writeJsonData) {
+            jsonExport.data[index] = color; index++;
+          }
+
+          color = color >> 8;
 
           graphics.beginFill(color, alpha);
         }
@@ -177,22 +204,22 @@ export class PixiBackend
         graphics.endFill();
       }
 
-    if (!useJsonData) {
+    if (writeJsonData) {
       let jsonExportString = JSON.stringify(jsonExport);
       fs.writeFileSync(path.replace('png', 'json'), jsonExportString);
     }
     
-    PixiPolyfill.pixiPolyfill.pixiApp.renderer.render(container, rt, false);
+    pixiApp.renderer.render(container, rt, false);
 
     // Release memory
     container.destroy({children: true});
     container = null;
     rt.destroy();
-    rt = null;
+    //rt = null;
     data = null;
     global.gc();
 
-    console.log('render done for ' + path);
+    //console.log('render done for ' + path);
     return brt;
   }
 }

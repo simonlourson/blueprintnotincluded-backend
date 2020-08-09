@@ -9,7 +9,11 @@
     "prod": "tsc && node ./build/server.js",
     "updateBasedOn": "tsc && node ./build/api/batch/update-based-on.js",
     "updatePositionCorrection": "tsc && node ./build/api/batch/update-position-correction.js",
-    "updateThumbnail": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/update-thumbnail.ts"
+    "updateThumbnail": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/update-thumbnail.ts",
+    "generateIcons": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate_icons.ts",
+    "generateGroups": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate_groups.ts",
+    "generateWhite": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate_white.ts",
+    "testCanvas": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/test-canvas.ts"
   },
   "author": "",
   "license": "ISC",
