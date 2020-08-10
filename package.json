@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./app/server.ts",
-    "prod": "tsc && node ./build/server.js",
+    "prod": "tsc -b && node ./build/server.js",
     "updateBasedOn": "tsc && node ./build/api/batch/update-based-on.js",
     "updatePositionCorrection": "tsc && node ./build/api/batch/update-position-correction.js",
     "updateThumbnail": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/update-thumbnail.ts",

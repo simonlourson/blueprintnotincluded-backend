@@ -127,7 +127,7 @@ export class PixiNodeUtil implements PixiUtil {
     cameraOffset.x = Math.floor(cameraOffset.x);
     cameraOffset.y = Math.floor(cameraOffset.y);
 
-    let exportCamera = new CameraService(this);
+    let exportCamera = new CameraService(this.getNewContainer());
     exportCamera.setHardZoom(thumbnailTileSize);
     exportCamera.cameraOffset = cameraOffset;
     exportCamera.overlay = Overlay.Base;

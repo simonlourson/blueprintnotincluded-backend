@@ -198,7 +198,7 @@ var PixiNodeUtil = /** @class */ (function () {
         thumbnailTileSize = Math.floor(thumbnailTileSize);
         cameraOffset.x = Math.floor(cameraOffset.x);
         cameraOffset.y = Math.floor(cameraOffset.y);
-        var exportCamera = new blueprintnotincluded_lib_1.CameraService(this);
+        var exportCamera = new blueprintnotincluded_lib_1.CameraService(this.getNewContainer());
         exportCamera.setHardZoom(thumbnailTileSize);
         exportCamera.cameraOffset = cameraOffset;
         exportCamera.overlay = blueprintnotincluded_lib_1.Overlay.Base;

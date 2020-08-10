@@ -61,6 +61,6 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "references": [
-    { "path": "../blueprintnotincluded-lib" }
+    { "path": "../blueprintnotincluded-lib/" }
   ],
 }

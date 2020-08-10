@@ -92,7 +92,8 @@ export class TestCanvas //implements PixiUtil
     let pixiNodeUtil = new PixiNodeUtil(options);
 
     await pixiNodeUtil.initTextures();
-    pixiNodeUtil.generateThumbnail(blueprint);
+    let base64 = pixiNodeUtil.generateThumbnail(blueprint);
+    console.log(base64);
 
     //let image = await loadImage('./assets/images/SweepBotStation_group_sprite.png');
     //let ressource = new NodeCanvasResource(image);

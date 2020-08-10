@@ -102,7 +102,7 @@ var TestCanvas //implements PixiUtil
     };
     TestCanvas.prototype.testCanvas = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var rawdata, data, blueprint, options, pixiNodeUtil;
+            var rawdata, data, blueprint, options, pixiNodeUtil, base64;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
@@ -119,7 +119,8 @@ var TestCanvas //implements PixiUtil
                         return [4 /*yield*/, pixiNodeUtil.initTextures()];
                     case 1:
                         _a.sent();
-                        pixiNodeUtil.generateThumbnail(blueprint);
+                        base64 = pixiNodeUtil.generateThumbnail(blueprint);
+                        console.log(base64);
                         return [2 /*return*/];
                 }
             });
