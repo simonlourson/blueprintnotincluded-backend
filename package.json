@@ -13,6 +13,7 @@
     "generateIcons": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-icons.ts",
     "generateGroups": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-groups.ts",
     "generateWhite": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-white.ts",
+    "generateRepack": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-repack.ts",
     "testCanvas": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/test-canvas.ts"
   },
   "author": "",

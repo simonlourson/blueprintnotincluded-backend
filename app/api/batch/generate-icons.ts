@@ -46,7 +46,7 @@ export class GenerateIcons
     OniItem.init();
     OniItem.load(buildings);
 
-    setTimeout(this.generateIcons, 3000);
+    this.generateIcons();
   }
 
   async generateIcons() {
@@ -55,11 +55,20 @@ export class GenerateIcons
     await pixiNodeUtil.initTextures();
 
     console.log('start generating icons')
-    for (let k of SpriteInfo.keys.filter(s => SpriteInfo.getSpriteInfo(s).isIcon))
+    for (let k of SpriteInfo.keys.filter(s => SpriteInfo.getSpriteInfo(s).isIcon && !SpriteInfo.getSpriteInfo(s).isInputOutput))
     {
-      console.log('generating icon for ' + k);
       let uiSpriteInfo = SpriteInfo.getSpriteInfo(k);
+
+      // Only generate icons for sprite not in the texture atlases
+      if (!uiSpriteInfo.isIcon || uiSpriteInfo.isInputOutput) continue;
+
+      console.log('generating icon for ' + k);
+
+      if (k == 'electrical_disconnected') console.log(uiSpriteInfo)
+
       
+
+
       let texture = uiSpriteInfo.getTexture(pixiNodeUtil);
       let uiSprite = pixiNodeUtil.getSpriteFrom(texture);
 

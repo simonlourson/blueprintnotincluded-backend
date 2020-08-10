@@ -1,8 +1,6 @@
 import dotenv from 'dotenv';
-import { Database } from '../db';
-import { BlueprintModel, Blueprint } from '../models/blueprint';
 import * as fs from 'fs';
-import Jimp, * as jimp from 'jimp';
+import * as jimp from 'jimp';
 import { BExport, SpriteTag } from "../../../../blueprintnotincluded-lib/index";
 import { ImageSource, BuildableElement, BuildMenuCategory, BuildMenuItem, BSpriteInfo, SpriteInfo, BSpriteModifier, SpriteModifier, BBuilding, OniItem } from '../../../../blueprintnotincluded-lib';
 import { PixiNodeUtil } from '../pixi-node-util';
