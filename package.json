@@ -10,9 +10,9 @@
     "updateBasedOn": "tsc && node ./build/api/batch/update-based-on.js",
     "updatePositionCorrection": "tsc && node ./build/api/batch/update-position-correction.js",
     "updateThumbnail": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/update-thumbnail.ts",
-    "generateIcons": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate_icons.ts",
-    "generateGroups": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate_groups.ts",
-    "generateWhite": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate_white.ts",
+    "generateIcons": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-icons.ts",
+    "generateGroups": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-groups.ts",
+    "generateWhite": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-white.ts",
     "testCanvas": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/test-canvas.ts"
   },
   "author": "",

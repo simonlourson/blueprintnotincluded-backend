@@ -34,9 +34,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
@@ -45,18 +42,25 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var dotenv_1 = __importDefault(require("dotenv"));
-var db_1 = require("../db");
-var blueprint_1 = require("../models/blueprint");
-var fs = __importStar(require("fs"));
 var blueprintnotincluded_lib_1 = require("../../../../blueprintnotincluded-lib");
+var fs = __importStar(require("fs"));
 var pixi_node_util_1 = require("../pixi-node-util");
-var UpdateThumbnail = /** @class */ (function () {
-    function UpdateThumbnail() {
-        console.log('Running batch UpdateThumbnail');
-        // initialize configuration
-        dotenv_1.default.config();
-        console.log(process.env.ENV_NAME);
+//var PIXI = require('../../pixi-shim')
+//require('../../pixi-shim/lib/pixi-shim-node.js')
+//require('../../pixi-shim/lib/node/canvas.js')
+//import {resources} from 'pixi.js-legacy'
+//const { createCanvas, loadImage } = require('canvas')
+/*
+class NodeCanvasResource extends resources.BaseImageResource
+{
+    constructor(source: any) {
+        super(source);
+    }
+}
+*/
+var TestCanvas //implements PixiUtil
+ = /** @class */ (function () {
+    function TestCanvas() {
         // Read database
         var rawdata = fs.readFileSync('./assets/database/database-white.json').toString();
         var json = JSON.parse(rawdata);
@@ -79,47 +83,49 @@ var UpdateThumbnail = /** @class */ (function () {
         var buildings = json.buildings;
         blueprintnotincluded_lib_1.OniItem.init();
         blueprintnotincluded_lib_1.OniItem.load(buildings);
-        // initialize database and authentification middleware
-        this.db = new db_1.Database();
-        setTimeout(this.updateThumbnail, 3000);
+        this.testCanvas();
     }
-    UpdateThumbnail.prototype.updateThumbnail = function () {
+    TestCanvas.prototype.getNewContainer = function () {
+        return new PIXI.Container();
+    };
+    TestCanvas.prototype.getSpriteFrom = function (ressource) {
+        return PIXI.Sprite.from(ressource);
+    };
+    TestCanvas.prototype.getNewBaseTexture = function (url) {
+        throw new Error('This should not be called on node : preload all textures');
+    };
+    TestCanvas.prototype.getNewTexture = function (baseTex, rectangle) {
+        return new PIXI.Texture(baseTex, rectangle);
+    };
+    TestCanvas.prototype.getNewRectangle = function (x1, y1, x2, y2) {
+        return new PIXI.Rectangle(x1, y1, x2, y2);
+    };
+    TestCanvas.prototype.testCanvas = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var pixiNodeUtil;
+            var rawdata, data, blueprint, options, pixiNodeUtil;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        pixiNodeUtil = new pixi_node_util_1.PixiNodeUtil({ forceCanvas: true, preserveDrawingBuffer: true });
+                        rawdata = fs.readFileSync('washroom.blueprint');
+                        data = JSON.parse(rawdata.toString());
+                        blueprint = new blueprintnotincluded_lib_1.Blueprint();
+                        blueprint.importFromBni(data);
+                        console.log(blueprint);
+                        options = {
+                            forceCanvas: true,
+                            preserveDrawingBuffer: true
+                        };
+                        pixiNodeUtil = new pixi_node_util_1.PixiNodeUtil(options);
                         return [4 /*yield*/, pixiNodeUtil.initTextures()];
                     case 1:
                         _a.sent();
-                        blueprint_1.BlueprintModel.model.find({}).sort({ createdAt: 1 })
-                            .then(function (blueprints) {
-                            var _loop_1 = function (index) {
-                                console.log('==> Generating thumbnail for blueprint : ' + index + ' : ' + blueprints[index].name);
-                                var mdbBlueprint = blueprints[index].data;
-                                var angularBlueprint = new blueprintnotincluded_lib_1.Blueprint();
-                                angularBlueprint.importFromMdb(mdbBlueprint);
-                                var newThumbnail = pixiNodeUtil.generateThumbnail(angularBlueprint);
-                                // Release memory
-                                mdbBlueprint = null;
-                                angularBlueprint = null;
-                                global.gc();
-                                blueprints[index].thumbnail = newThumbnail;
-                                blueprints[index].save()
-                                    .then(function () { console.log('====> Save Ok for blueprint : ' + index + ' : ' + blueprints[index].name); })
-                                    .catch(function () { console.log('====> Save Error for blueprint : ' + index + ' : ' + blueprints[index].name); });
-                            };
-                            for (var index = blueprints.length - 1; index >= 0; index--) {
-                                _loop_1(index);
-                            }
-                        });
+                        pixiNodeUtil.generateThumbnail(blueprint);
                         return [2 /*return*/];
                 }
             });
         });
     };
-    return UpdateThumbnail;
+    return TestCanvas;
 }());
-exports.UpdateThumbnail = UpdateThumbnail;
-new UpdateThumbnail();
+exports.TestCanvas = TestCanvas;
+new TestCanvas();

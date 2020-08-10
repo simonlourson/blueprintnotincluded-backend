@@ -1,6 +1,5 @@
 import { Blueprint } from "../models/blueprint";
-import { MdbBlueprint } from "../shared/io/mdb-blueprint";
-import { Vector2 } from "../../../../blueprintnotincluded-lib/index"
+import { Vector2, MdbBlueprint } from "../../../../blueprintnotincluded-lib/index"
 
 export class BatchUtils {
 

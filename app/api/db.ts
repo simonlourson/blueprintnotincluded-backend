@@ -2,11 +2,6 @@ import mongoose from 'mongoose'
 import { UserModel } from './models/user';
 import { BlueprintModel } from './models/blueprint';
 
-
-import { ImageSource, PixiPolyfill } from '../../../blueprintnotincluded-lib';
-import * as fs from 'fs';
-import { PixiBackend } from '../pixi-backend';
-
 export class Database
 {
   dbURI = 'mongodb://localhost:27017/blueprintnotincluded';

@@ -6,8 +6,6 @@ import { UserModel, User, UserJwt } from "./models/user";
 import { UpdateBasedOn } from "./batch/update-based-on";
 import { BatchUtils } from "./batch/batch-utils";
 
-import { PixiBackend } from "../pixi-backend";
-
 export class BlueprintController {
   
   public uploadBlueprint(req: Request, res: Response) 
@@ -206,7 +204,8 @@ export class BlueprintController {
           let angularBlueprint = new sharedBlueprint();
           angularBlueprint.importFromMdb(mdbBlueprint);
 
-          PixiBackend.pixiBackend.generateThumbnail(angularBlueprint);
+          // TODO not sure if I should allow users to regen, or just serve the save thumbnail
+          //PixiBackend.pixiBackend.generateThumbnail(angularBlueprint);
           
           res.json({status: 'ok'});
         }

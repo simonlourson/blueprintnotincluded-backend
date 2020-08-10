@@ -4,7 +4,6 @@ var blueprint_1 = require("./models/blueprint");
 var index_1 = require("../../../blueprintnotincluded-lib/index");
 var user_1 = require("./models/user");
 var batch_utils_1 = require("./batch/batch-utils");
-var pixi_backend_1 = require("../pixi-backend");
 var BlueprintController = /** @class */ (function () {
     function BlueprintController() {
     }
@@ -178,7 +177,8 @@ var BlueprintController = /** @class */ (function () {
                     var mdbBlueprint = blueprint.data;
                     var angularBlueprint = new index_1.Blueprint();
                     angularBlueprint.importFromMdb(mdbBlueprint);
-                    pixi_backend_1.PixiBackend.pixiBackend.generateThumbnail(angularBlueprint);
+                    // TODO not sure if I should allow users to regen, or just serve the save thumbnail
+                    //PixiBackend.pixiBackend.generateThumbnail(angularBlueprint);
                     res.json({ status: 'ok' });
                 }
                 else

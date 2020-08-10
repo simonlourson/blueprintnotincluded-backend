@@ -7,10 +7,7 @@ import requestIp from 'request-ip';
 import { Auth } from './api/auth';
 import passport from 'passport';
 import * as fs from 'fs';
-import { PixiPolyfill, BBuilding, BuildableElement, OniItem, BuildMenuCategory, BuildMenuItem, BSpriteInfo, SpriteInfo, BSpriteModifier, SpriteModifier, ImageSource } from '../../blueprintnotincluded-lib/index'
-
-import { BlueprintController } from './api/blueprint-controller';
-import { PixiBackend } from './pixi-backend';
+import { BBuilding, BuildableElement, OniItem, BuildMenuCategory, BuildMenuItem, BSpriteInfo, SpriteInfo, BSpriteModifier, SpriteModifier, ImageSource } from '../../blueprintnotincluded-lib/index'
 
 class App
 {
