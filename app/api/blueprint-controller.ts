@@ -1,10 +1,11 @@
 import { Request, Response } from "express";
 import { BlueprintModel, Blueprint } from "./models/blueprint";
-import { MdbBlueprint, BlueprintResponse, BlueprintListItem, BlueprintListResponse, BlueprintLike, Vector2, CameraService, Overlay, ImageSource,  } from "../../../blueprintnotincluded-lib/index";
+import { MdbBlueprint, BlueprintResponse, BlueprintListItem, BlueprintListResponse, BlueprintLike, Vector2, CameraService, Overlay, ImageSource, BlueprintDelete,  } from "../../../blueprintnotincluded-lib/index";
 import { Blueprint as sharedBlueprint } from "../../../blueprintnotincluded-lib/index";
 import { UserModel, User, UserJwt } from "./models/user";
 import { UpdateBasedOn } from "./batch/update-based-on";
 import { BatchUtils } from "./batch/batch-utils";
+import { use } from "passport";
 
 export class BlueprintController {
   
@@ -33,9 +34,9 @@ export class BlueprintController {
 
         BlueprintModel.model.find({owner: ownerId, name: name})
           .then((blueprints) => {
-            if (blueprints.length) 
+            if (blueprints.length > 0)  
             {
-              if (overwrite) BlueprintController.saveBlueprint(req, res, blueprints[0], ownerId, name, data, thumbnail, false);
+              if (overwrite || blueprints[0].deleted) BlueprintController.saveBlueprint(req, res, blueprints[0], ownerId, name, data, thumbnail, false);
               else res.json({ overwrite: true });
             }
             else {
@@ -50,6 +51,56 @@ export class BlueprintController {
             res.status(500).json({ saveBlueprintResult: 'ERROR' });
           });
 
+    }
+  }
+
+  public deleteBlueprint(req: Request, res: Response) {
+    console.log('deleteBlueprint' + req.clientIp);
+    if (BlueprintModel.model == null) res.status(503).send();
+    else
+    {
+      try {
+        let user = req.user as UserJwt
+        let blueprintDelete = req.body as BlueprintDelete;
+
+        let ownerId = user._id;
+        
+        if (blueprintDelete.blueprintId == null || user == null) {
+          res.status(500).json({ likeBlueprint: 'ERROR' });
+          return;
+        }
+
+        BlueprintModel.model.find({_id: blueprintDelete.blueprintId, owner: ownerId})
+          .then((blueprints) => {
+            if (blueprints.length > 0) 
+            {
+              let blueprint = blueprints[0];
+              
+              blueprint.deleted = true;
+
+              blueprint.save()
+                .then(() => {
+                  res.json({ deleteBlueprint: 'OK' });
+                }) 
+                .catch((error) => { 
+                  console.log('deleteBlueprint error');
+                  console.log(error);
+                  res.status(500).json({ deleteBlueprint: 'ERROR' });
+                });
+                
+            }
+            else res.status(500).json({ deleteBlueprint: 'ERROR' });
+          })
+          .catch((err) => {
+            console.log('deleteBlueprint error');
+            console.log(err);
+            res.status(500).json({ deleteBlueprint: 'ERROR' });
+          });
+
+      }
+      catch {
+        res.status(500).json({ deleteBlueprint: 'ERROR' });
+      }
     }
   }
 
@@ -249,7 +300,7 @@ export class BlueprintController {
         return;
       }
       
-      let filter: any = { $and: [ {createdAt: { $lt: dateFilter } }] };
+      let filter: any = { $and: [ {createdAt: { $lt: dateFilter } }, {deleted: { $ne: true }}] };
             
       if (filterUserId != null) filter.$and.push({owner: filterUserId});
       if (filterName != null) filter.$and.push({name: {$regex: filterName, $options: 'i'}});
@@ -299,6 +350,10 @@ export class BlueprintController {
         let likedByMe = false;
         if (userId != null && blueprint.likes != null && blueprint.likes.indexOf(userId) != -1) likedByMe = true;
 
+        let ownedByMe = false;
+        if (userId != null && ownerId == userId) ownedByMe = true;
+        console.log(userId + '_' + ownerId)
+
         let nbLikes = 0;
         if (blueprint.likes != null) nbLikes = blueprint.likes.length;
 
@@ -312,7 +367,8 @@ export class BlueprintController {
           modifiedAt: blueprint.modifiedAt,
           thumbnail: blueprint.thumbnail,
           nbLikes: nbLikes,
-          likedByMe: likedByMe
+          likedByMe: likedByMe,
+          ownedByMe: ownedByMe
         });
       }
 
@@ -331,6 +387,7 @@ export class BlueprintController {
     blueprint.data = data;
     blueprint.markModified('data');
     blueprint.thumbnail = thumbnail;
+    blueprint.deleted = false;
 
     if (overwriteCreateDate || blueprint.createdAt == null) blueprint.createdAt = new Date();
     blueprint.modifiedAt = new Date();

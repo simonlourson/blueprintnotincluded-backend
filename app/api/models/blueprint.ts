@@ -15,6 +15,7 @@ export interface Blueprint extends Document
   isCopy?: boolean;
   copyOf?: string;
   data: any;
+  deleted: boolean;
 }
 
 export class BlueprintModel
@@ -40,7 +41,8 @@ export class BlueprintModel
       copyOf: {
         type: Schema.Types.ObjectId, ref: 'Blueprint'
       },
-      data: Object
+      data: Object,
+      deleted: Boolean
     });
 
     BlueprintModel.model = mongoose.model<Blueprint>('Blueprint', blueprintSchema);

@@ -44,6 +44,7 @@ export class Routes {
     app.route("/api/getblueprintsSecure").get(auth, this.uploadBlueprintController.getBlueprints);
     app.route("/api/uploadblueprint").post(auth, this.uploadBlueprintController.uploadBlueprint);
     app.route("/api/likeblueprint").post(auth, this.uploadBlueprintController.likeBlueprint);
+    app.route("/api/deleteblueprint").post(auth, this.uploadBlueprintController.deleteBlueprint);
 
     app.use(express.static(path.join(__dirname, "public")));
     app.get('*', function(req, res){
