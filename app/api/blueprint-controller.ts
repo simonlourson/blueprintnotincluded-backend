@@ -352,7 +352,7 @@ export class BlueprintController {
 
         let ownedByMe = false;
         if (userId != null && ownerId == userId) ownedByMe = true;
-        console.log(userId + '_' + ownerId)
+        //console.log(userId + '_' + ownerId)
 
         let nbLikes = 0;
         if (blueprint.likes != null) nbLikes = blueprint.likes.length;
