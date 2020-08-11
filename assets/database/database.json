@@ -22,6 +22,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -123,6 +124,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -188,6 +190,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -266,6 +269,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -323,6 +327,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -408,6 +413,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -451,6 +457,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -524,6 +531,7 @@
       "viewMode": 5,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -570,6 +578,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -630,6 +639,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -697,6 +707,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -762,6 +773,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 14,
       "utilities": [
         {
           "offset": {
@@ -822,6 +834,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -875,6 +888,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -932,6 +946,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1010,6 +1025,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1056,6 +1072,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1100,6 +1117,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1146,6 +1164,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1190,6 +1209,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -1257,6 +1277,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1327,6 +1348,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1370,6 +1392,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1413,6 +1436,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1456,6 +1480,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -1509,6 +1534,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1581,6 +1607,7 @@
       "viewMode": 8,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 3,
       "utilities": [
         {
           "offset": {
@@ -1638,6 +1665,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1701,6 +1729,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1770,6 +1799,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1849,6 +1879,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1911,6 +1942,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -1971,6 +2003,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2014,6 +2047,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2084,6 +2118,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2154,6 +2189,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2204,6 +2240,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2255,6 +2292,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2323,6 +2361,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2391,6 +2430,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -2462,6 +2502,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 5,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2506,6 +2547,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -2578,6 +2620,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2625,6 +2668,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2668,6 +2712,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2712,6 +2757,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -2775,6 +2821,7 @@
       "viewMode": 7,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 3,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2818,6 +2865,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2868,6 +2916,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2913,6 +2962,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2959,6 +3009,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -3009,6 +3060,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3056,6 +3108,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3119,6 +3172,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3191,6 +3245,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3259,6 +3314,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3338,6 +3394,7 @@
       "viewMode": 11,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3377,6 +3434,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3416,6 +3474,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3471,6 +3530,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3510,6 +3570,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3595,6 +3656,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": true,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3638,6 +3700,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3680,6 +3743,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3739,6 +3803,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3782,6 +3847,7 @@
       "viewMode": 8,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3845,6 +3911,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -3913,6 +3980,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3953,6 +4021,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 3,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3994,6 +4063,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 3,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -4034,6 +4104,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 4,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -4074,6 +4145,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -4141,6 +4213,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -4190,6 +4263,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4248,6 +4322,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -4312,6 +4387,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -4366,6 +4442,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -4422,6 +4499,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -4491,6 +4569,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -4560,6 +4639,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -4629,6 +4709,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -4698,6 +4779,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4786,6 +4868,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4864,6 +4947,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4936,6 +5020,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5006,6 +5091,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -5080,6 +5166,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5165,6 +5252,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -5226,6 +5314,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -5285,6 +5374,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -5346,6 +5436,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5429,6 +5520,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5506,6 +5598,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5586,6 +5679,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5656,6 +5750,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5737,6 +5832,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5775,6 +5871,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5823,6 +5920,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5880,6 +5978,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5966,6 +6065,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6009,6 +6109,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -6087,6 +6188,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -6135,6 +6237,7 @@
       "viewMode": 9,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6191,6 +6294,7 @@
       "viewMode": 9,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -6258,6 +6362,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6297,6 +6402,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6366,6 +6472,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6435,6 +6542,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6505,6 +6613,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6544,6 +6653,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -6639,6 +6749,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6683,6 +6794,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -6756,6 +6868,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6801,6 +6914,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -6863,6 +6977,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": true,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6906,6 +7021,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": true,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6949,6 +7065,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -7001,6 +7118,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -7087,6 +7205,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -7143,6 +7262,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -7212,6 +7332,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -7281,6 +7402,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -7350,6 +7472,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -7419,6 +7542,7 @@
       "viewMode": 9,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -7470,6 +7594,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7559,6 +7684,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -7614,6 +7740,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7675,6 +7802,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7755,6 +7883,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7827,6 +7956,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7901,6 +8031,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -7954,6 +8085,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -8045,6 +8177,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8106,6 +8239,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8162,6 +8296,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8214,6 +8349,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8282,6 +8418,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8351,6 +8488,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8423,6 +8561,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 14,
       "utilities": [
         {
           "offset": {
@@ -8477,6 +8616,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8528,6 +8668,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8578,6 +8719,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8659,6 +8801,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8739,6 +8882,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8812,6 +8956,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8873,6 +9018,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8946,6 +9092,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9019,6 +9166,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9140,6 +9288,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9255,6 +9404,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9313,6 +9463,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9386,6 +9537,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9438,6 +9590,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9507,6 +9660,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9575,6 +9729,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 9,
       "utilities": [
         {
           "offset": {
@@ -9660,6 +9815,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -9930,6 +10086,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -10004,6 +10161,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -10078,6 +10236,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -10139,6 +10298,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -10210,6 +10370,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -10267,6 +10428,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -10320,6 +10482,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -10390,6 +10553,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 9,
       "utilities": [
         {
           "offset": {
@@ -10446,6 +10610,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10516,6 +10681,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10555,6 +10721,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10594,6 +10761,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10673,6 +10841,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10738,6 +10907,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10777,6 +10947,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10854,6 +11025,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10913,6 +11085,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10997,6 +11170,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [
         {
@@ -11062,6 +11236,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11132,6 +11307,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11224,6 +11400,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11263,6 +11440,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11333,6 +11511,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11450,6 +11629,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11517,6 +11697,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11579,6 +11760,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11619,6 +11801,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11661,6 +11844,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11703,6 +11887,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11773,6 +11958,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11838,6 +12024,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11924,6 +12111,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -12018,6 +12206,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12089,6 +12278,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12139,6 +12329,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12185,6 +12376,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -12236,6 +12428,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12304,6 +12497,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12347,6 +12541,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12421,6 +12616,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12492,6 +12688,7 @@
       "viewMode": 4,
       "tileableLeftRight": true,
       "tileableTopBottom": true,
+      "buildLocationRule": 7,
       "utilities": [
         {
           "offset": {
@@ -12562,6 +12759,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12606,6 +12804,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12676,6 +12875,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12719,6 +12919,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -12769,6 +12970,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12814,6 +13016,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12902,6 +13105,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12968,6 +13172,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13044,6 +13249,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13121,6 +13327,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -13182,6 +13389,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [
         {
@@ -13242,6 +13450,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [
         {
@@ -13301,6 +13510,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13349,6 +13559,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -13394,6 +13605,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13457,6 +13669,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13527,6 +13740,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -13582,6 +13796,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13657,6 +13872,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13730,6 +13946,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -13783,6 +14000,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13862,6 +14080,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13939,6 +14158,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -13978,6 +14198,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14048,6 +14269,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14117,6 +14339,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14156,6 +14379,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14225,6 +14449,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14292,6 +14517,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14337,6 +14563,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -14393,6 +14620,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14462,6 +14690,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14529,6 +14758,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14580,6 +14810,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14652,6 +14883,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14704,6 +14936,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14774,6 +15007,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14859,6 +15093,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14934,6 +15169,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -14995,6 +15231,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -15051,6 +15288,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15115,6 +15353,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -15157,6 +15396,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15211,6 +15451,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -15310,6 +15551,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15412,6 +15654,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -15458,6 +15701,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15522,6 +15766,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15601,6 +15846,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15690,6 +15936,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -15759,6 +16006,7 @@
       "viewMode": 8,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15825,6 +16073,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15905,6 +16154,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -15970,6 +16220,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16011,6 +16262,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -16094,6 +16346,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [
         {
@@ -16156,6 +16409,7 @@
       "viewMode": 11,
       "tileableLeftRight": true,
       "tileableTopBottom": true,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16199,6 +16453,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16269,6 +16524,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16339,6 +16595,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16382,6 +16639,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16457,6 +16715,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -16529,6 +16788,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16571,6 +16831,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -16633,6 +16894,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16682,6 +16944,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -16746,6 +17009,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -16786,6 +17050,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -16872,6 +17137,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 10,
       "utilities": [
         {
           "offset": {
@@ -16928,6 +17194,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 11,
       "utilities": [
         {
           "offset": {
@@ -16985,6 +17252,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -17059,6 +17327,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -17128,6 +17397,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 10,
       "utilities": [
         {
           "offset": {
@@ -17184,6 +17454,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 11,
       "utilities": [
         {
           "offset": {
@@ -17241,6 +17512,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -17314,6 +17586,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -17387,6 +17660,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {

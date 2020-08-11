@@ -22,6 +22,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -94,6 +95,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -150,6 +152,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -206,6 +209,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -254,6 +258,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -326,6 +331,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -365,6 +371,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -429,6 +436,7 @@
       "viewMode": 5,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -472,6 +480,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -528,6 +537,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -584,6 +594,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -640,6 +651,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 14,
       "utilities": [
         {
           "offset": {
@@ -696,6 +708,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -744,6 +757,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -792,6 +806,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -867,6 +882,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -912,6 +928,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -951,6 +968,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -990,6 +1008,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1029,6 +1048,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -1085,6 +1105,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1155,6 +1176,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1196,6 +1218,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1237,6 +1260,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1278,6 +1302,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -1328,6 +1353,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1400,6 +1426,7 @@
       "viewMode": 8,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 3,
       "utilities": [
         {
           "offset": {
@@ -1456,6 +1483,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1512,6 +1540,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1568,6 +1597,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1640,6 +1670,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -1696,6 +1727,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -1752,6 +1784,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -1791,6 +1824,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -1859,6 +1893,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -1927,6 +1962,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -1975,6 +2011,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2023,6 +2060,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2089,6 +2127,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2155,6 +2194,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -2211,6 +2251,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 5,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2255,6 +2296,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -2311,6 +2353,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2350,6 +2393,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2389,6 +2433,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2428,6 +2473,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -2491,6 +2537,7 @@
       "viewMode": 7,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 3,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2534,6 +2581,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -2582,6 +2630,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2625,6 +2674,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2664,6 +2714,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -2712,6 +2763,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -2751,6 +2803,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -2807,6 +2860,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -2871,6 +2925,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -2935,6 +2990,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -2999,6 +3055,7 @@
       "viewMode": 11,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3038,6 +3095,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3077,6 +3135,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3125,6 +3184,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3164,6 +3224,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3228,6 +3289,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": true,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3271,6 +3333,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3310,6 +3373,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3349,6 +3413,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3388,6 +3453,7 @@
       "viewMode": 8,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3444,6 +3510,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -3510,6 +3577,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3549,6 +3617,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 3,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3588,6 +3657,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 3,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3627,6 +3697,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 4,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3666,6 +3737,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3722,6 +3794,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -3763,6 +3836,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -3819,6 +3893,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -3867,6 +3942,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -3916,6 +3992,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -3972,6 +4049,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -4041,6 +4119,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -4105,6 +4184,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -4169,6 +4249,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -4238,6 +4319,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4318,6 +4400,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4390,6 +4473,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4454,6 +4538,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -4524,6 +4609,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4588,6 +4674,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -4669,6 +4756,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4725,6 +4813,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4781,6 +4870,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -4839,6 +4929,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -4909,6 +5000,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -4965,6 +5057,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5029,6 +5122,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5099,6 +5193,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5163,6 +5258,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5201,6 +5297,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5242,6 +5339,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5281,6 +5379,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5355,6 +5454,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5395,6 +5495,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5459,6 +5560,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -5507,6 +5609,7 @@
       "viewMode": 9,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5546,6 +5649,7 @@
       "viewMode": 9,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5602,6 +5706,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5641,6 +5746,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5710,6 +5816,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5779,6 +5886,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5849,6 +5957,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -5888,6 +5997,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -5962,6 +6072,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6001,6 +6112,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -6065,6 +6177,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6104,6 +6217,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -6152,6 +6266,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": true,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6195,6 +6310,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": true,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6238,6 +6354,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -6287,6 +6404,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -6359,6 +6477,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -6415,6 +6534,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6484,6 +6604,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -6548,6 +6669,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -6612,6 +6734,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6681,6 +6804,7 @@
       "viewMode": 9,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -6720,6 +6844,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -6800,6 +6925,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -6848,6 +6974,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -6904,6 +7031,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -6976,6 +7104,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7040,6 +7169,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7104,6 +7234,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -7147,6 +7278,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -7228,6 +7360,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7284,6 +7417,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7340,6 +7474,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7388,6 +7523,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7452,6 +7588,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7518,6 +7655,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7586,6 +7724,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 14,
       "utilities": [
         {
           "offset": {
@@ -7634,6 +7773,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7682,6 +7822,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7730,6 +7871,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7794,6 +7936,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7858,6 +8001,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7922,6 +8066,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -7978,6 +8123,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8048,6 +8194,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8118,6 +8265,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8198,6 +8346,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8278,6 +8427,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8334,6 +8484,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8398,6 +8549,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8446,6 +8598,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8512,6 +8665,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8578,6 +8732,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 9,
       "utilities": [
         {
           "offset": {
@@ -8634,6 +8789,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -8904,6 +9060,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -8969,6 +9126,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9034,6 +9192,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9082,6 +9241,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9148,6 +9308,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9196,6 +9357,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9244,6 +9406,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -9310,6 +9473,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 9,
       "utilities": [
         {
           "offset": {
@@ -9366,6 +9530,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -9436,6 +9601,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -9475,6 +9641,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -9514,6 +9681,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -9584,6 +9752,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -9623,6 +9792,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -9662,6 +9832,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -9735,6 +9906,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -9783,6 +9955,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -9847,6 +10020,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [
         {
@@ -9900,6 +10074,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -9970,6 +10145,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10042,6 +10218,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10081,6 +10258,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10151,6 +10329,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10223,6 +10402,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10279,6 +10459,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10335,6 +10516,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10375,6 +10557,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10417,6 +10600,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10459,6 +10643,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10529,6 +10714,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10585,6 +10771,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10657,6 +10844,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -10735,6 +10923,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10783,6 +10972,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10822,6 +11012,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -10861,6 +11052,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [
         {
           "offset": {
@@ -10909,6 +11101,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -10975,6 +11168,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11014,6 +11208,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11078,6 +11273,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11134,6 +11330,7 @@
       "viewMode": 4,
       "tileableLeftRight": true,
       "tileableTopBottom": true,
+      "buildLocationRule": 7,
       "utilities": [
         {
           "offset": {
@@ -11200,6 +11397,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11243,6 +11441,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11313,6 +11512,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11352,6 +11552,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -11400,6 +11601,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11439,6 +11641,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11511,6 +11714,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11559,6 +11763,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11623,6 +11828,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11689,6 +11895,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [
         {
           "offset": {
@@ -11745,6 +11952,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [
         {
@@ -11802,6 +12010,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [
         {
@@ -11859,6 +12068,7 @@
       "viewMode": 10,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -11907,6 +12117,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -11946,6 +12157,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12002,6 +12214,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12058,6 +12271,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12097,6 +12311,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12153,6 +12368,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12209,6 +12425,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12248,6 +12465,7 @@
       "viewMode": 5,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12304,6 +12522,7 @@
       "viewMode": 3,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12378,6 +12597,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12417,6 +12637,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12473,6 +12694,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12529,6 +12751,7 @@
       "viewMode": 7,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12568,6 +12791,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -12632,6 +12856,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -12680,6 +12905,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12719,6 +12945,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 8,
       "utilities": [
         {
           "offset": {
@@ -12775,6 +13002,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -12844,6 +13072,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -12908,6 +13137,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -12956,6 +13186,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -13024,6 +13255,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -13072,6 +13304,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -13138,6 +13371,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -13218,6 +13452,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -13290,6 +13525,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -13346,6 +13582,7 @@
       "viewMode": 6,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -13402,6 +13639,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13458,6 +13696,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -13498,6 +13737,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13546,6 +13786,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [
         {
           "offset": {
@@ -13604,6 +13845,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13670,6 +13912,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -13709,6 +13952,7 @@
       "viewMode": 4,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13765,6 +14009,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13821,6 +14066,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13890,6 +14136,7 @@
       "viewMode": 0,
       "tileableLeftRight": true,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -13933,6 +14180,7 @@
       "viewMode": 8,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -13991,6 +14239,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14047,6 +14296,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14103,6 +14353,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14142,6 +14393,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14207,6 +14459,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [
         {
@@ -14264,6 +14517,7 @@
       "viewMode": 11,
       "tileableLeftRight": true,
       "tileableTopBottom": true,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14307,6 +14561,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14377,6 +14632,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14447,6 +14703,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 12,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14486,6 +14743,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14561,6 +14819,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14617,6 +14876,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 6,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14656,6 +14916,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14712,6 +14973,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14751,6 +15013,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14807,6 +15070,7 @@
       "viewMode": 0,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -14846,6 +15110,7 @@
       "viewMode": 2,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -14918,6 +15183,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 10,
       "utilities": [
         {
           "offset": {
@@ -14974,6 +15240,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 11,
       "utilities": [
         {
           "offset": {
@@ -15030,6 +15297,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -15104,6 +15372,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -15173,6 +15442,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 10,
       "utilities": [
         {
           "offset": {
@@ -15229,6 +15499,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 11,
       "utilities": [
         {
           "offset": {
@@ -15285,6 +15556,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 0,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -15358,6 +15630,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 7,
       "utilities": [],
       "uiScreens": [],
       "sprites": {
@@ -15431,6 +15704,7 @@
       "viewMode": 1,
       "tileableLeftRight": false,
       "tileableTopBottom": false,
+      "buildLocationRule": 1,
       "utilities": [
         {
           "offset": {
@@ -44965,6 +45239,7 @@
       "name": "Desalinator_group_sprite",
       "textureName": "Desalinator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -44986,6 +45261,7 @@
       "name": "AdvancedDoctorStation_group_sprite",
       "textureName": "AdvancedDoctorStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45007,6 +45283,7 @@
       "name": "AdvancedResearchCenter_group_sprite",
       "textureName": "AdvancedResearchCenter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45028,6 +45305,7 @@
       "name": "AirborneCreatureLure_group_sprite",
       "textureName": "AirborneCreatureLure_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45049,6 +45327,7 @@
       "name": "AirConditioner_group_sprite",
       "textureName": "AirConditioner_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45070,6 +45349,7 @@
       "name": "AirFilter_group_sprite",
       "textureName": "AirFilter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45091,6 +45371,7 @@
       "name": "AlgaeDistillery_group_sprite",
       "textureName": "AlgaeDistillery_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45112,6 +45393,7 @@
       "name": "AlgaeHabitat_group_sprite",
       "textureName": "AlgaeHabitat_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45133,6 +45415,7 @@
       "name": "Apothecary_group_sprite",
       "textureName": "Apothecary_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45154,6 +45437,7 @@
       "name": "ArcadeMachine_group_sprite",
       "textureName": "ArcadeMachine_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45175,6 +45459,7 @@
       "name": "AstronautTrainingCenter_group_sprite",
       "textureName": "AstronautTrainingCenter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45196,6 +45481,7 @@
       "name": "AutoMiner_group_sprite",
       "textureName": "AutoMiner_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45217,6 +45503,7 @@
       "name": "Battery_group_sprite",
       "textureName": "Battery_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45238,6 +45525,7 @@
       "name": "BatteryMedium_group_sprite",
       "textureName": "BatteryMedium_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45259,6 +45547,7 @@
       "name": "BatterySmart_group_sprite",
       "textureName": "BatterySmart_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45280,6 +45569,7 @@
       "name": "BeachChair_group_sprite",
       "textureName": "BeachChair_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45301,6 +45591,7 @@
       "name": "Bed_group_sprite",
       "textureName": "Bed_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45322,6 +45613,7 @@
       "name": "BottleEmptier_group_sprite",
       "textureName": "BottleEmptier_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45343,6 +45635,7 @@
       "name": "BottleEmptierGas_group_sprite",
       "textureName": "BottleEmptierGas_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45364,6 +45657,7 @@
       "name": "BunkerDoor_group_sprite",
       "textureName": "BunkerDoor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45385,6 +45679,7 @@
       "name": "Canvas_group_sprite",
       "textureName": "Canvas_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45406,6 +45701,7 @@
       "name": "CanvasTall_group_sprite",
       "textureName": "CanvasTall_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45427,6 +45723,7 @@
       "name": "CanvasWide_group_sprite",
       "textureName": "CanvasWide_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45448,6 +45745,7 @@
       "name": "CargoBay_group_sprite",
       "textureName": "CargoBay_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45469,6 +45767,7 @@
       "name": "CeilingLight_group_sprite",
       "textureName": "CeilingLight_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45490,6 +45789,7 @@
       "name": "Checkpoint_group_sprite",
       "textureName": "Checkpoint_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45511,6 +45811,7 @@
       "name": "ClothingFabricator_group_sprite",
       "textureName": "ClothingFabricator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45532,6 +45833,7 @@
       "name": "CO2Scrubber_group_sprite",
       "textureName": "CO2Scrubber_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45553,6 +45855,7 @@
       "name": "CometDetector_group_sprite",
       "textureName": "CometDetector_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45574,6 +45877,7 @@
       "name": "CommandModule_group_sprite",
       "textureName": "CommandModule_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45595,6 +45899,7 @@
       "name": "Compost_group_sprite",
       "textureName": "Compost_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45616,6 +45921,7 @@
       "name": "GasConduitDiseaseSensor_group_sprite",
       "textureName": "GasConduitDiseaseSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45637,6 +45943,7 @@
       "name": "LiquidConduitDiseaseSensor_group_sprite",
       "textureName": "LiquidConduitDiseaseSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45658,6 +45965,7 @@
       "name": "GasConduitElementSensor_group_sprite",
       "textureName": "GasConduitElementSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45679,6 +45987,7 @@
       "name": "LiquidConduitElementSensor_group_sprite",
       "textureName": "LiquidConduitElementSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45700,6 +46009,7 @@
       "name": "GasConduitTemperatureSensor_group_sprite",
       "textureName": "GasConduitTemperatureSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45721,6 +46031,7 @@
       "name": "LiquidConduitTemperatureSensor_group_sprite",
       "textureName": "LiquidConduitTemperatureSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45742,6 +46053,7 @@
       "name": "CookingStation_group_sprite",
       "textureName": "CookingStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45763,6 +46075,7 @@
       "name": "CosmicResearchCenter_group_sprite",
       "textureName": "CosmicResearchCenter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45784,6 +46097,7 @@
       "name": "CreatureDeliveryPoint_group_sprite",
       "textureName": "CreatureDeliveryPoint_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45805,6 +46119,7 @@
       "name": "CreatureFeeder_group_sprite",
       "textureName": "CreatureFeeder_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45826,6 +46141,7 @@
       "name": "CreatureTrap_group_sprite",
       "textureName": "CreatureTrap_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45847,6 +46163,7 @@
       "name": "DevGenerator_group_sprite",
       "textureName": "DevGenerator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45868,6 +46185,7 @@
       "name": "DiningTable_group_sprite",
       "textureName": "DiningTable_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45889,6 +46207,7 @@
       "name": "DoctorStation_group_sprite",
       "textureName": "DoctorStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45910,6 +46229,7 @@
       "name": "Door_group_sprite",
       "textureName": "Door_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45931,6 +46251,7 @@
       "name": "EggCracker_group_sprite",
       "textureName": "EggCracker_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45952,6 +46273,7 @@
       "name": "EggIncubator_group_sprite",
       "textureName": "EggIncubator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45973,6 +46295,7 @@
       "name": "Electrolyzer_group_sprite",
       "textureName": "Electrolyzer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -45994,6 +46317,7 @@
       "name": "EspressoMachine_group_sprite",
       "textureName": "EspressoMachine_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46015,6 +46339,7 @@
       "name": "EthanolDistillery_group_sprite",
       "textureName": "EthanolDistillery_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46036,6 +46361,7 @@
       "name": "FarmStation_group_sprite",
       "textureName": "FarmStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46057,6 +46383,7 @@
       "name": "FertilizerMaker_group_sprite",
       "textureName": "FertilizerMaker_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46078,6 +46405,7 @@
       "name": "FishDeliveryPoint_group_sprite",
       "textureName": "FishDeliveryPoint_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46099,6 +46427,7 @@
       "name": "FishFeeder_group_sprite",
       "textureName": "FishFeeder_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46120,6 +46449,7 @@
       "name": "FishTrap_group_sprite",
       "textureName": "FishTrap_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46141,6 +46471,7 @@
       "name": "FloorLamp_group_sprite",
       "textureName": "FloorLamp_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46162,6 +46493,7 @@
       "name": "FloorSwitch_group_sprite",
       "textureName": "FloorSwitch_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46183,6 +46515,7 @@
       "name": "FlowerVase_group_sprite",
       "textureName": "FlowerVase_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46204,6 +46537,7 @@
       "name": "FlowerVaseHanging_group_sprite",
       "textureName": "FlowerVaseHanging_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46225,6 +46559,7 @@
       "name": "FlowerVaseHangingFancy_group_sprite",
       "textureName": "FlowerVaseHangingFancy_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46246,6 +46581,7 @@
       "name": "FlowerVaseWall_group_sprite",
       "textureName": "FlowerVaseWall_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46267,6 +46603,7 @@
       "name": "FlushToilet_group_sprite",
       "textureName": "FlushToilet_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46288,6 +46625,7 @@
       "name": "FlyingCreatureBait_group_sprite",
       "textureName": "FlyingCreatureBait_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46309,6 +46647,7 @@
       "name": "Gantry_group_sprite",
       "textureName": "Gantry_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46330,6 +46669,7 @@
       "name": "GasBottler_group_sprite",
       "textureName": "GasBottler_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46351,6 +46691,7 @@
       "name": "GasCargoBay_group_sprite",
       "textureName": "GasCargoBay_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46372,6 +46713,7 @@
       "name": "GasConduitOverflow_group_sprite",
       "textureName": "GasConduitOverflow_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46393,6 +46735,7 @@
       "name": "GasConduitPreferentialFlow_group_sprite",
       "textureName": "GasConduitPreferentialFlow_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46414,6 +46757,7 @@
       "name": "GasFilter_group_sprite",
       "textureName": "GasFilter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46435,6 +46779,7 @@
       "name": "GasLogicValve_group_sprite",
       "textureName": "GasLogicValve_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46456,6 +46801,7 @@
       "name": "GasMiniPump_group_sprite",
       "textureName": "GasMiniPump_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46477,6 +46823,7 @@
       "name": "GasPump_group_sprite",
       "textureName": "GasPump_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46498,6 +46845,7 @@
       "name": "GasReservoir_group_sprite",
       "textureName": "GasReservoir_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46519,6 +46867,7 @@
       "name": "GasValve_group_sprite",
       "textureName": "GasValve_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46540,6 +46889,7 @@
       "name": "GasVent_group_sprite",
       "textureName": "GasVent_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46561,6 +46911,7 @@
       "name": "GasVentHighPressure_group_sprite",
       "textureName": "GasVentHighPressure_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46582,6 +46933,7 @@
       "name": "Generator_group_sprite",
       "textureName": "Generator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46603,6 +46955,7 @@
       "name": "GenericFabricator_group_sprite",
       "textureName": "GenericFabricator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46624,6 +46977,7 @@
       "name": "GlassForge_group_sprite",
       "textureName": "GlassForge_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46645,6 +46999,7 @@
       "name": "GourmetCookingStation_group_sprite",
       "textureName": "GourmetCookingStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46666,6 +47021,7 @@
       "name": "HandSanitizer_group_sprite",
       "textureName": "HandSanitizer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46687,6 +47043,7 @@
       "name": "Headquarters_group_sprite",
       "textureName": "Headquarters_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46708,6 +47065,7 @@
       "name": "HotTub_group_sprite",
       "textureName": "HotTub_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46729,6 +47087,7 @@
       "name": "HydrogenEngine_group_sprite",
       "textureName": "HydrogenEngine_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46750,6 +47109,7 @@
       "name": "HydrogenGenerator_group_sprite",
       "textureName": "HydrogenGenerator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46771,6 +47131,7 @@
       "name": "IceCooledFan_group_sprite",
       "textureName": "IceCooledFan_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46792,6 +47153,7 @@
       "name": "IceMachine_group_sprite",
       "textureName": "IceMachine_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46813,6 +47175,7 @@
       "name": "JetSuitLocker_group_sprite",
       "textureName": "JetSuitLocker_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46834,6 +47197,7 @@
       "name": "JetSuitMarker_group_sprite",
       "textureName": "JetSuitMarker_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46855,6 +47219,7 @@
       "name": "Juicer_group_sprite",
       "textureName": "Juicer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46876,6 +47241,7 @@
       "name": "KeroseneEngine_group_sprite",
       "textureName": "KeroseneEngine_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46897,6 +47263,7 @@
       "name": "Kiln_group_sprite",
       "textureName": "Kiln_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46918,6 +47285,7 @@
       "name": "LiquidCargoBay_group_sprite",
       "textureName": "LiquidCargoBay_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46939,6 +47307,7 @@
       "name": "LiquidConditioner_group_sprite",
       "textureName": "LiquidConditioner_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46960,6 +47329,7 @@
       "name": "LiquidConduitOverflow_group_sprite",
       "textureName": "LiquidConduitOverflow_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -46981,6 +47351,7 @@
       "name": "LiquidConduitPreferentialFlow_group_sprite",
       "textureName": "LiquidConduitPreferentialFlow_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47002,6 +47373,7 @@
       "name": "LiquidCooledFan_group_sprite",
       "textureName": "LiquidCooledFan_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47023,6 +47395,7 @@
       "name": "LiquidFilter_group_sprite",
       "textureName": "LiquidFilter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47044,6 +47417,7 @@
       "name": "LiquidFuelTank_group_sprite",
       "textureName": "LiquidFuelTank_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47065,6 +47439,7 @@
       "name": "LiquidHeater_group_sprite",
       "textureName": "LiquidHeater_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47086,6 +47461,7 @@
       "name": "LiquidLogicValve_group_sprite",
       "textureName": "LiquidLogicValve_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47107,6 +47483,7 @@
       "name": "LiquidMiniPump_group_sprite",
       "textureName": "LiquidMiniPump_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47128,6 +47505,7 @@
       "name": "LiquidPump_group_sprite",
       "textureName": "LiquidPump_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47149,6 +47527,7 @@
       "name": "LiquidPumpingStation_group_sprite",
       "textureName": "LiquidPumpingStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47170,6 +47549,7 @@
       "name": "LiquidReservoir_group_sprite",
       "textureName": "LiquidReservoir_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47191,6 +47571,7 @@
       "name": "LiquidValve_group_sprite",
       "textureName": "LiquidValve_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47212,6 +47593,7 @@
       "name": "LogicAlarm_group_sprite",
       "textureName": "LogicAlarm_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47233,6 +47615,7 @@
       "name": "LogicCounter_group_sprite",
       "textureName": "LogicCounter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47254,6 +47637,7 @@
       "name": "LogicCritterCountSensor_group_sprite",
       "textureName": "LogicCritterCountSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47275,6 +47659,7 @@
       "name": "LogicDiseaseSensor_group_sprite",
       "textureName": "LogicDiseaseSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47296,6 +47681,7 @@
       "name": "LogicDuplicantSensor_group_sprite",
       "textureName": "LogicDuplicantSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47317,6 +47703,7 @@
       "name": "LogicElementSensorGas_group_sprite",
       "textureName": "LogicElementSensorGas_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47338,6 +47725,7 @@
       "name": "LogicElementSensorLiquid_group_sprite",
       "textureName": "LogicElementSensorLiquid_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47359,6 +47747,7 @@
       "name": "LogicGateAND_group_sprite",
       "textureName": "LogicGateAND_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47380,6 +47769,7 @@
       "name": "LogicGateOR_group_sprite",
       "textureName": "LogicGateOR_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47401,6 +47791,7 @@
       "name": "LogicGateXOR_group_sprite",
       "textureName": "LogicGateXOR_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47422,6 +47813,7 @@
       "name": "LogicGateNOT_group_sprite",
       "textureName": "LogicGateNOT_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47443,6 +47835,7 @@
       "name": "LogicGateBUFFER_group_sprite",
       "textureName": "LogicGateBUFFER_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47464,6 +47857,7 @@
       "name": "LogicGateFILTER_group_sprite",
       "textureName": "LogicGateFILTER_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47485,6 +47879,7 @@
       "name": "LogicGateMultiplexer_group_sprite",
       "textureName": "LogicGateMultiplexer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47506,6 +47901,7 @@
       "name": "LogicGateDemultiplexer_group_sprite",
       "textureName": "LogicGateDemultiplexer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47527,6 +47923,7 @@
       "name": "LogicHammer_group_sprite",
       "textureName": "LogicHammer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47548,6 +47945,7 @@
       "name": "LogicMemory_group_sprite",
       "textureName": "LogicMemory_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47569,6 +47967,7 @@
       "name": "LogicPowerRelay_group_sprite",
       "textureName": "LogicPowerRelay_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47590,6 +47989,7 @@
       "name": "LogicPressureSensorGas_group_sprite",
       "textureName": "LogicPressureSensorGas_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47611,6 +48011,7 @@
       "name": "LogicPressureSensorLiquid_group_sprite",
       "textureName": "LogicPressureSensorLiquid_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47632,6 +48033,7 @@
       "name": "LogicRibbonBridge_group_sprite",
       "textureName": "LogicRibbonBridge_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47653,6 +48055,7 @@
       "name": "LogicRibbonReader_group_sprite",
       "textureName": "LogicRibbonReader_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47674,6 +48077,7 @@
       "name": "LogicRibbonWriter_group_sprite",
       "textureName": "LogicRibbonWriter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47695,6 +48099,7 @@
       "name": "LogicSwitch_group_sprite",
       "textureName": "LogicSwitch_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47716,6 +48121,7 @@
       "name": "LogicTemperatureSensor_group_sprite",
       "textureName": "LogicTemperatureSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47737,6 +48143,7 @@
       "name": "LogicTimeOfDaySensor_group_sprite",
       "textureName": "LogicTimeOfDaySensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47758,6 +48165,7 @@
       "name": "LogicTimerSensor_group_sprite",
       "textureName": "LogicTimerSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47779,6 +48187,7 @@
       "name": "LogicWattageSensor_group_sprite",
       "textureName": "LogicWattageSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47800,6 +48209,7 @@
       "name": "ManualGenerator_group_sprite",
       "textureName": "ManualGenerator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47821,6 +48231,7 @@
       "name": "ManualPressureDoor_group_sprite",
       "textureName": "ManualPressureDoor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47842,6 +48253,7 @@
       "name": "MassageTable_group_sprite",
       "textureName": "MassageTable_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47863,6 +48275,7 @@
       "name": "MassiveHeatSink_group_sprite",
       "textureName": "MassiveHeatSink_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47884,6 +48297,7 @@
       "name": "MechanicalSurfboard_group_sprite",
       "textureName": "MechanicalSurfboard_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47905,6 +48319,7 @@
       "name": "MedicalCot_group_sprite",
       "textureName": "MedicalCot_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47926,6 +48341,7 @@
       "name": "MetalRefinery_group_sprite",
       "textureName": "MetalRefinery_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47947,6 +48363,7 @@
       "name": "MethaneGenerator_group_sprite",
       "textureName": "MethaneGenerator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47968,6 +48385,7 @@
       "name": "MicrobeMusher_group_sprite",
       "textureName": "MicrobeMusher_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -47989,6 +48407,7 @@
       "name": "MineralDeoxidizer_group_sprite",
       "textureName": "MineralDeoxidizer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48010,6 +48429,7 @@
       "name": "ObjectDispenser_group_sprite",
       "textureName": "ObjectDispenser_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48031,6 +48451,7 @@
       "name": "OilRefinery_group_sprite",
       "textureName": "OilRefinery_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48052,6 +48473,7 @@
       "name": "OilWellCap_group_sprite",
       "textureName": "OilWellCap_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48073,6 +48495,7 @@
       "name": "OreScrubber_group_sprite",
       "textureName": "OreScrubber_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48094,6 +48517,7 @@
       "name": "Outhouse_group_sprite",
       "textureName": "Outhouse_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48115,6 +48539,7 @@
       "name": "OxidizerTank_group_sprite",
       "textureName": "OxidizerTank_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48136,6 +48561,7 @@
       "name": "OxidizerTankLiquid_group_sprite",
       "textureName": "OxidizerTankLiquid_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48157,6 +48583,7 @@
       "name": "OxyliteRefinery_group_sprite",
       "textureName": "OxyliteRefinery_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48178,6 +48605,7 @@
       "name": "ParkSign_group_sprite",
       "textureName": "ParkSign_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48199,6 +48627,7 @@
       "name": "PetroleumGenerator_group_sprite",
       "textureName": "PetroleumGenerator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48220,6 +48649,7 @@
       "name": "Phonobox_group_sprite",
       "textureName": "Phonobox_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48241,6 +48671,7 @@
       "name": "PixelPack_group_sprite",
       "textureName": "PixelPack_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48262,6 +48693,7 @@
       "name": "PlanterBox_group_sprite",
       "textureName": "PlanterBox_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48283,6 +48715,7 @@
       "name": "POIBunkerExteriorDoor_group_sprite",
       "textureName": "POIBunkerExteriorDoor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48304,6 +48737,7 @@
       "name": "POIDoorInternal_group_sprite",
       "textureName": "POIDoorInternal_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48325,6 +48759,7 @@
       "name": "POIFacilityDoor_group_sprite",
       "textureName": "POIFacilityDoor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48346,6 +48781,7 @@
       "name": "Polymerizer_group_sprite",
       "textureName": "Polymerizer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48367,6 +48803,7 @@
       "name": "PowerControlStation_group_sprite",
       "textureName": "PowerControlStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48388,6 +48825,7 @@
       "name": "PowerTransformer_group_sprite",
       "textureName": "PowerTransformer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48409,6 +48847,7 @@
       "name": "PowerTransformerSmall_group_sprite",
       "textureName": "PowerTransformerSmall_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48430,6 +48869,7 @@
       "name": "PressureDoor_group_sprite",
       "textureName": "PressureDoor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48451,6 +48891,7 @@
       "name": "PressureSwitchGas_group_sprite",
       "textureName": "PressureSwitchGas_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48472,6 +48913,7 @@
       "name": "PressureSwitchLiquid_group_sprite",
       "textureName": "PressureSwitchLiquid_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48493,6 +48935,7 @@
       "name": "RationBox_group_sprite",
       "textureName": "RationBox_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48514,6 +48957,7 @@
       "name": "Refrigerator_group_sprite",
       "textureName": "Refrigerator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48535,6 +48979,7 @@
       "name": "ResearchCenter_group_sprite",
       "textureName": "ResearchCenter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48556,6 +49001,7 @@
       "name": "ResearchModule_group_sprite",
       "textureName": "ResearchModule_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48577,6 +49023,7 @@
       "name": "ResetSkillsStation_group_sprite",
       "textureName": "ResetSkillsStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48598,6 +49045,7 @@
       "name": "RockCrusher_group_sprite",
       "textureName": "RockCrusher_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48619,6 +49067,7 @@
       "name": "RoleStation_group_sprite",
       "textureName": "RoleStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48640,6 +49089,7 @@
       "name": "RustDeoxidizer_group_sprite",
       "textureName": "RustDeoxidizer_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48661,6 +49111,7 @@
       "name": "Sauna_group_sprite",
       "textureName": "Sauna_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48682,6 +49133,7 @@
       "name": "ShearingStation_group_sprite",
       "textureName": "ShearingStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48703,6 +49155,7 @@
       "name": "Shower_group_sprite",
       "textureName": "Shower_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48724,6 +49177,7 @@
       "name": "SodaFountain_group_sprite",
       "textureName": "SodaFountain_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48745,6 +49199,7 @@
       "name": "SolarPanel_group_sprite",
       "textureName": "SolarPanel_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48766,6 +49221,7 @@
       "name": "SolidBooster_group_sprite",
       "textureName": "SolidBooster_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48787,6 +49243,7 @@
       "name": "SolidConduitInbox_group_sprite",
       "textureName": "SolidConduitInbox_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48808,6 +49265,7 @@
       "name": "SolidConduitOutbox_group_sprite",
       "textureName": "SolidConduitOutbox_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48829,6 +49287,7 @@
       "name": "SolidConduitDiseaseSensor_group_sprite",
       "textureName": "SolidConduitDiseaseSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48850,6 +49309,7 @@
       "name": "SolidConduitElementSensor_group_sprite",
       "textureName": "SolidConduitElementSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48871,6 +49331,7 @@
       "name": "SolidConduitTemperatureSensor_group_sprite",
       "textureName": "SolidConduitTemperatureSensor_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48892,6 +49353,7 @@
       "name": "SolidFilter_group_sprite",
       "textureName": "SolidFilter_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48913,6 +49375,7 @@
       "name": "SolidLogicValve_group_sprite",
       "textureName": "SolidLogicValve_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48934,6 +49397,7 @@
       "name": "SolidTransferArm_group_sprite",
       "textureName": "SolidTransferArm_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48955,6 +49419,7 @@
       "name": "SpaceHeater_group_sprite",
       "textureName": "SpaceHeater_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48976,6 +49441,7 @@
       "name": "SpecialCargoBay_group_sprite",
       "textureName": "SpecialCargoBay_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -48997,6 +49463,7 @@
       "name": "SteamEngine_group_sprite",
       "textureName": "SteamEngine_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49018,6 +49485,7 @@
       "name": "SteamTurbine_group_sprite",
       "textureName": "SteamTurbine_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49039,6 +49507,7 @@
       "name": "SteamTurbine2_group_sprite",
       "textureName": "SteamTurbine2_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49060,6 +49529,7 @@
       "name": "StorageLocker_group_sprite",
       "textureName": "StorageLocker_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49081,6 +49551,7 @@
       "name": "StorageLockerSmart_group_sprite",
       "textureName": "StorageLockerSmart_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49102,6 +49573,7 @@
       "name": "SuitFabricator_group_sprite",
       "textureName": "SuitFabricator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49123,6 +49595,7 @@
       "name": "SuitLocker_group_sprite",
       "textureName": "SuitLocker_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49144,6 +49617,7 @@
       "name": "SuitMarker_group_sprite",
       "textureName": "SuitMarker_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49165,6 +49639,7 @@
       "name": "SunLamp_group_sprite",
       "textureName": "SunLamp_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49186,6 +49661,7 @@
       "name": "SupermaterialRefinery_group_sprite",
       "textureName": "SupermaterialRefinery_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49207,6 +49683,7 @@
       "name": "SweepBotStation_group_sprite",
       "textureName": "SweepBotStation_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49228,6 +49705,7 @@
       "name": "Switch_group_sprite",
       "textureName": "Switch_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49249,6 +49727,7 @@
       "name": "Telescope_group_sprite",
       "textureName": "Telescope_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49270,6 +49749,7 @@
       "name": "TemperatureControlledSwitch_group_sprite",
       "textureName": "TemperatureControlledSwitch_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49291,6 +49771,7 @@
       "name": "TouristModule_group_sprite",
       "textureName": "TouristModule_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49312,6 +49793,7 @@
       "name": "TravelTubeEntrance_group_sprite",
       "textureName": "TravelTubeEntrance_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49333,6 +49815,7 @@
       "name": "TravelTubeWallBridge_group_sprite",
       "textureName": "TravelTubeWallBridge_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49354,6 +49837,7 @@
       "name": "VerticalWindTunnel_group_sprite",
       "textureName": "VerticalWindTunnel_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49375,6 +49859,7 @@
       "name": "WashBasin_group_sprite",
       "textureName": "WashBasin_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49396,6 +49881,7 @@
       "name": "WashSink_group_sprite",
       "textureName": "WashSink_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49417,6 +49903,7 @@
       "name": "WaterCooler_group_sprite",
       "textureName": "WaterCooler_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49438,6 +49925,7 @@
       "name": "WaterPurifier_group_sprite",
       "textureName": "WaterPurifier_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49459,6 +49947,7 @@
       "name": "WireBridgeHighWattage_group_sprite",
       "textureName": "WireBridgeHighWattage_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49480,6 +49969,7 @@
       "name": "WireRefinedBridgeHighWattage_group_sprite",
       "textureName": "WireRefinedBridgeHighWattage_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
@@ -49501,6 +49991,7 @@
       "name": "WoodGasGenerator_group_sprite",
       "textureName": "WoodGasGenerator_group_sprite",
       "isIcon": false,
+      "isInputOutput": false,
       "uvMin": {
         "x": 0,
         "y": 0
