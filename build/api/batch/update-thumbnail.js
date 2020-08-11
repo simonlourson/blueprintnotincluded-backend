@@ -58,7 +58,7 @@ var UpdateThumbnail = /** @class */ (function () {
         dotenv_1.default.config();
         console.log(process.env.ENV_NAME);
         // Read database
-        var rawdata = fs.readFileSync('./assets/database/database-white.json').toString();
+        var rawdata = fs.readFileSync('./assets/database/database-repack.json').toString();
         var json = JSON.parse(rawdata);
         blueprintnotincluded_lib_1.ImageSource.init();
         var elements = json.elements;

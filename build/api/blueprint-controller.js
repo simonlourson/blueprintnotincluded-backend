@@ -27,8 +27,8 @@ var BlueprintController = /** @class */ (function () {
             }
             blueprint_1.BlueprintModel.model.find({ owner: ownerId_1, name: name_1 })
                 .then(function (blueprints) {
-                if (blueprints.length) {
-                    if (overwrite_1)
+                if (blueprints.length > 0) {
+                    if (overwrite_1 || blueprints[0].deleted)
                         BlueprintController.saveBlueprint(req, res, blueprints[0], ownerId_1, name_1, data_1, thumbnail_1, false);
                     else
                         res.json({ overwrite: true });
@@ -44,6 +44,48 @@ var BlueprintController = /** @class */ (function () {
                 console.log(err);
                 res.status(500).json({ saveBlueprintResult: 'ERROR' });
             });
+        }
+    };
+    BlueprintController.prototype.deleteBlueprint = function (req, res) {
+        console.log('deleteBlueprint' + req.clientIp);
+        if (blueprint_1.BlueprintModel.model == null)
+            res.status(503).send();
+        else {
+            try {
+                var user = req.user;
+                var blueprintDelete = req.body;
+                var ownerId = user._id;
+                if (blueprintDelete.blueprintId == null || user == null) {
+                    res.status(500).json({ likeBlueprint: 'ERROR' });
+                    return;
+                }
+                blueprint_1.BlueprintModel.model.find({ _id: blueprintDelete.blueprintId, owner: ownerId })
+                    .then(function (blueprints) {
+                    if (blueprints.length > 0) {
+                        var blueprint = blueprints[0];
+                        blueprint.deleted = true;
+                        blueprint.save()
+                            .then(function () {
+                            res.json({ deleteBlueprint: 'OK' });
+                        })
+                            .catch(function (error) {
+                            console.log('deleteBlueprint error');
+                            console.log(error);
+                            res.status(500).json({ deleteBlueprint: 'ERROR' });
+                        });
+                    }
+                    else
+                        res.status(500).json({ deleteBlueprint: 'ERROR' });
+                })
+                    .catch(function (err) {
+                    console.log('deleteBlueprint error');
+                    console.log(err);
+                    res.status(500).json({ deleteBlueprint: 'ERROR' });
+                });
+            }
+            catch (_a) {
+                res.status(500).json({ deleteBlueprint: 'ERROR' });
+            }
         }
     };
     BlueprintController.prototype.likeBlueprint = function (req, res) {
@@ -216,7 +258,7 @@ var BlueprintController = /** @class */ (function () {
                 res.status(500).json({ getBlueprints: 'ERROR' });
                 return;
             }
-            var filter = { $and: [{ createdAt: { $lt: dateFilter } }] };
+            var filter = { $and: [{ createdAt: { $lt: dateFilter } }, { deleted: { $ne: true } }] };
             if (filterUserId != null)
                 filter.$and.push({ owner: filterUserId });
             if (filterName != null)
@@ -258,6 +300,10 @@ var BlueprintController = /** @class */ (function () {
                 var likedByMe = false;
                 if (userId != null && blueprint.likes != null && blueprint.likes.indexOf(userId) != -1)
                     likedByMe = true;
+                var ownedByMe = false;
+                if (userId != null && ownerId == userId)
+                    ownedByMe = true;
+                console.log(userId + '_' + ownerId);
                 var nbLikes = 0;
                 if (blueprint.likes != null)
                     nbLikes = blueprint.likes.length;
@@ -271,7 +317,8 @@ var BlueprintController = /** @class */ (function () {
                     modifiedAt: blueprint.modifiedAt,
                     thumbnail: blueprint.thumbnail,
                     nbLikes: nbLikes,
-                    likedByMe: likedByMe
+                    likedByMe: likedByMe,
+                    ownedByMe: ownedByMe
                 });
             }
             // Long timeout for debug
@@ -288,6 +335,7 @@ var BlueprintController = /** @class */ (function () {
         blueprint.data = data;
         blueprint.markModified('data');
         blueprint.thumbnail = thumbnail;
+        blueprint.deleted = false;
         if (overwriteCreateDate || blueprint.createdAt == null)
             blueprint.createdAt = new Date();
         blueprint.modifiedAt = new Date();

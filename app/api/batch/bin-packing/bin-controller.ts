@@ -46,7 +46,7 @@ export class BinController {
     if (itemAdded != null) return itemAdded;
     
     // If the item was still not added, log it and move on
-    console.log('This should never happen');
-    return itemAdded;
+    //console.log('This should never happen');
+    throw new Error('This should never happen');
   }
 }

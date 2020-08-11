@@ -47,7 +47,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var dotenv_1 = __importDefault(require("dotenv"));
 var fs = __importStar(require("fs"));
+var jimp = __importStar(require("jimp"));
+var index_1 = require("../../../../blueprintnotincluded-lib/index");
 var blueprintnotincluded_lib_1 = require("../../../../blueprintnotincluded-lib");
+var bin_controller_1 = require("./bin-packing/bin-controller");
+var pixi_node_util_1 = require("../pixi-node-util");
 var GenerateRepack = /** @class */ (function () {
     function GenerateRepack() {
         console.log('Running batch GenerateRepack');
@@ -80,8 +84,97 @@ var GenerateRepack = /** @class */ (function () {
     }
     GenerateRepack.prototype.generateRepack = function (database) {
         return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                return [2 /*return*/];
+            var pixiNodeUtil, traySize, textureBaseString, binController, bleed, newSpriteInfos, _i, _a, spriteInfo, newSpriteInfo, _b, newSpriteInfos_1, spriteInfo, itemAdded, _loop_1, trayIndex, data;
+            return __generator(this, function (_c) {
+                switch (_c.label) {
+                    case 0:
+                        pixiNodeUtil = new pixi_node_util_1.PixiNodeUtil({ forceCanvas: true, preserveDrawingBuffer: true });
+                        return [4 /*yield*/, pixiNodeUtil.initTextures()];
+                    case 1:
+                        _c.sent();
+                        traySize = 1024;
+                        textureBaseString = 'repack_';
+                        binController = new bin_controller_1.BinController(new index_1.Vector2(traySize, traySize));
+                        bleed = new index_1.Vector2(10, 10);
+                        newSpriteInfos = [];
+                        for (_i = 0, _a = blueprintnotincluded_lib_1.SpriteInfo.spriteInfos; _i < _a.length; _i++) {
+                            spriteInfo = _a[_i];
+                            // We don't need the ui icons in the texture atlases for pixi
+                            if (spriteInfo.isIcon && !spriteInfo.isInputOutput)
+                                continue;
+                            newSpriteInfo = new blueprintnotincluded_lib_1.BSpriteInfo();
+                            newSpriteInfo.name = spriteInfo.spriteInfoId;
+                            newSpriteInfo.uvMin = index_1.Vector2.cloneNullToZero(spriteInfo.uvMin);
+                            newSpriteInfo.uvSize = index_1.Vector2.cloneNullToZero(spriteInfo.uvSize);
+                            newSpriteInfo.realSize = index_1.Vector2.cloneNullToZero(spriteInfo.realSize);
+                            newSpriteInfo.pivot = index_1.Vector2.cloneNullToZero(spriteInfo.pivot);
+                            newSpriteInfo.isIcon = spriteInfo.isIcon;
+                            newSpriteInfo.isInputOutput = spriteInfo.isInputOutput;
+                            newSpriteInfos.push(newSpriteInfo);
+                        }
+                        // Sort our new array of BSpriteInfo by descending height
+                        newSpriteInfos = newSpriteInfos.sort(function (i1, i2) { return i2.uvSize.y - i1.uvSize.y; });
+                        for (_b = 0, newSpriteInfos_1 = newSpriteInfos; _b < newSpriteInfos_1.length; _b++) {
+                            spriteInfo = newSpriteInfos_1[_b];
+                            itemAdded = binController.addItem(spriteInfo.name, index_1.Vector2.cloneNullToZero(spriteInfo.uvSize), bleed);
+                            if (itemAdded != null) {
+                                spriteInfo.uvMin = index_1.Vector2.cloneNullToZero(itemAdded.uvStart);
+                                spriteInfo.textureName = textureBaseString + itemAdded.trayIndex;
+                            }
+                        }
+                        database.uiSprites = newSpriteInfos;
+                        _loop_1 = function (trayIndex) {
+                            var brt, rt, graphics, container, _i, _a, spriteInfo, repackBleed, realBleed, texture, sprite, base64, repack, repackPath;
+                            return __generator(this, function (_b) {
+                                switch (_b.label) {
+                                    case 0:
+                                        brt = pixiNodeUtil.getNewBaseRenderTexture({ width: binController.binTrays[trayIndex].binSize.x, height: binController.binTrays[trayIndex].binSize.y });
+                                        rt = pixiNodeUtil.getNewRenderTexture(brt);
+                                        graphics = pixiNodeUtil.getNewGraphics();
+                                        container = pixiNodeUtil.getNewContainer();
+                                        container.addChild(graphics);
+                                        for (_i = 0, _a = newSpriteInfos.filter(function (s) { return s.textureName == textureBaseString + trayIndex; }); _i < _a.length; _i++) {
+                                            spriteInfo = _a[_i];
+                                            repackBleed = 5;
+                                            realBleed = new index_1.Vector2();
+                                            texture = blueprintnotincluded_lib_1.SpriteInfo.getSpriteInfo(spriteInfo.name).getTextureWithBleed(repackBleed, realBleed, pixiNodeUtil);
+                                            sprite = pixiNodeUtil.getSpriteFrom(texture);
+                                            sprite.x = spriteInfo.uvMin.x - realBleed.x;
+                                            sprite.y = spriteInfo.uvMin.y - realBleed.y;
+                                            container.addChild(sprite);
+                                            //graphics.beginFill(0x007AD9);
+                                            //graphics.drawRect(spriteInfo.uvMin.x, spriteInfo.uvMin.y, spriteInfo.uvSize.x, spriteInfo.uvSize.y);
+                                            //graphics.endFill();
+                                        }
+                                        pixiNodeUtil.pixiApp.renderer.render(container, rt, true);
+                                        base64 = pixiNodeUtil.pixiApp.renderer.plugins.extract.canvas(rt).toDataURL();
+                                        return [4 /*yield*/, jimp.read(Buffer.from(base64.replace(/^data:image\/png;base64,/, ""), 'base64'))];
+                                    case 1:
+                                        repack = _b.sent();
+                                        repackPath = './assets/images/' + textureBaseString + trayIndex + '.png';
+                                        console.log('saving repack to ' + repackPath);
+                                        repack.write(repackPath);
+                                        return [2 /*return*/];
+                                }
+                            });
+                        };
+                        trayIndex = 0;
+                        _c.label = 2;
+                    case 2:
+                        if (!(trayIndex < binController.binTrays.length)) return [3 /*break*/, 5];
+                        return [5 /*yield**/, _loop_1(trayIndex)];
+                    case 3:
+                        _c.sent();
+                        _c.label = 4;
+                    case 4:
+                        trayIndex++;
+                        return [3 /*break*/, 2];
+                    case 5:
+                        data = JSON.stringify(database, null, 2);
+                        fs.writeFileSync('./assets/database/database-repack.json', data);
+                        console.log('done generating repack');
+                        return [2 /*return*/];
+                }
             });
         });
     };

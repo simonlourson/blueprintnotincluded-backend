@@ -78,7 +78,7 @@ var GenerateIcons = /** @class */ (function () {
         var buildings = json.buildings;
         blueprintnotincluded_lib_1.OniItem.init();
         blueprintnotincluded_lib_1.OniItem.load(buildings);
-        setTimeout(this.generateIcons, 3000);
+        this.generateIcons();
     }
     GenerateIcons.prototype.generateIcons = function () {
         return __awaiter(this, void 0, void 0, function () {
@@ -91,13 +91,18 @@ var GenerateIcons = /** @class */ (function () {
                     case 1:
                         _b.sent();
                         console.log('start generating icons');
-                        _i = 0, _a = blueprintnotincluded_lib_1.SpriteInfo.keys.filter(function (s) { return blueprintnotincluded_lib_1.SpriteInfo.getSpriteInfo(s).isIcon; });
+                        _i = 0, _a = blueprintnotincluded_lib_1.SpriteInfo.keys.filter(function (s) { return blueprintnotincluded_lib_1.SpriteInfo.getSpriteInfo(s).isIcon && !blueprintnotincluded_lib_1.SpriteInfo.getSpriteInfo(s).isInputOutput; });
                         _b.label = 2;
                     case 2:
                         if (!(_i < _a.length)) return [3 /*break*/, 5];
                         k = _a[_i];
-                        console.log('generating icon for ' + k);
                         uiSpriteInfo = blueprintnotincluded_lib_1.SpriteInfo.getSpriteInfo(k);
+                        // Only generate icons for sprite not in the texture atlases
+                        if (!uiSpriteInfo.isIcon || uiSpriteInfo.isInputOutput)
+                            return [3 /*break*/, 4];
+                        console.log('generating icon for ' + k);
+                        if (k == 'electrical_disconnected')
+                            console.log(uiSpriteInfo);
                         texture = uiSpriteInfo.getTexture(pixiNodeUtil);
                         uiSprite = pixiNodeUtil.getSpriteFrom(texture);
                         size = Math.max(texture.width, texture.height);

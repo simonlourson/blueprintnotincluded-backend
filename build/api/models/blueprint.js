@@ -30,7 +30,8 @@ var BlueprintModel = /** @class */ (function () {
             copyOf: {
                 type: mongoose_1.Schema.Types.ObjectId, ref: 'Blueprint'
             },
-            data: Object
+            data: Object,
+            deleted: Boolean
         });
         BlueprintModel.model = mongoose_1.default.model('Blueprint', blueprintSchema);
     };
