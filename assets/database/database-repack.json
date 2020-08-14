@@ -850,8 +850,8 @@
           "title": "Logic Activation Parameters",
           "activateSliderLabelText": "High Threshold:",
           "deactivateSliderLabelText": "Low Threshold:",
-          "activateTooltip": "Sends a <b><style=\"logic_off\">Red Signal</style></b> when battery is <b>{0}%</b> charged, until it is less than <b>{1}% (Low Threshold)</b> charged",
-          "deactivateTooltip": "Sends a <b><style=\"logic_on\">Green Signal</style></b> when battery is less than <b>{0}%</b> charged, until it is <b>{1}% (High Threshold)</b> charged",
+          "activateTooltip": "Sends a Red Signal when battery is {0}% charged, until it is less than {1}% (Low Threshold) charged",
+          "deactivateTooltip": "Sends a Green Signal when battery is less than {0}% charged, until it is {1}% (High Threshold) charged",
           "id": "ActiveRangeSideScreen",
           "inputs": [
             "number",
@@ -1905,8 +1905,8 @@
       "uiScreens": [
         {
           "title": "Germ Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the number of <style=\"KKeyword\">Germs</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the number of <style=\"KKeyword\">Germs</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the number of Germs is above {0}",
+          "belowToolTip": "Will send a Green Signal if the number of Germs is below {0}",
           "thresholdValueName": "Germs",
           "thresholdValueUnits": "germs",
           "rangeMin": 0,
@@ -1975,8 +1975,8 @@
       "uiScreens": [
         {
           "title": "Germ Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the number of <style=\"KKeyword\">Germs</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the number of <style=\"KKeyword\">Germs</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the number of Germs is above {0}",
+          "belowToolTip": "Will send a Green Signal if the number of Germs is below {0}",
           "thresholdValueName": "Germs",
           "thresholdValueUnits": "germs",
           "rangeMin": 0,
@@ -2145,8 +2145,8 @@
       "uiScreens": [
         {
           "title": "Temperature Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the ambient Temperature is above {0}",
+          "belowToolTip": "Will send a Green Signal if the ambient Temperature is below {0}",
           "thresholdValueName": "Temperature",
           "thresholdValueUnits": " ºC",
           "rangeMin": 0,
@@ -2213,8 +2213,8 @@
       "uiScreens": [
         {
           "title": "Temperature Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the ambient Temperature is above {0}",
+          "belowToolTip": "Will send a Green Signal if the ambient Temperature is below {0}",
           "thresholdValueName": "Temperature",
           "thresholdValueUnits": " ºC",
           "rangeMin": 0,
@@ -3629,8 +3629,8 @@
       "uiScreens": [
         {
           "title": "Pressure Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the Pressure is above {0}",
+          "belowToolTip": "Will send a Green Signal if the Pressure is below {0}",
           "thresholdValueName": "Pressure",
           "thresholdValueUnits": " Kg",
           "rangeMin": 0,
@@ -4880,8 +4880,8 @@
           "title": "Logic Activation Parameters",
           "activateSliderLabelText": "High Threshold:",
           "deactivateSliderLabelText": "Low Threshold:",
-          "activateTooltip": "Sends a <b><style=\"logic_off\">Red Signal</style></b> when reservoir is <b>{0}%</b> full, until it is less than <b>{1}% (Low Threshold)</b> full",
-          "deactivateTooltip": "Sends a <b><style=\"logic_on\">Green Signal</style></b> when reservoir is less than <b>{0}%</b> full, until it is <b>{1}% (High Threshold)</b> full",
+          "activateTooltip": "Sends a Red Signal when reservoir is {0}% full, until it is less than {1}% (Low Threshold) full",
+          "deactivateTooltip": "Sends a Green Signal when reservoir is less than {0}% full, until it is {1}% (High Threshold) full",
           "id": "ActiveRangeSideScreen",
           "inputs": [
             "number",
@@ -5128,7 +5128,7 @@
           "sliderUnits": "%",
           "min": 0,
           "max": 100,
-          "tooltip": "Duplicants will be requested to deliver <style=\"KKeyword\">{0}</style> when the total charge of the connected <style=\"KKeyword\">Batteries</style> falls below <b>{1}%</b>",
+          "tooltip": "Duplicants will be requested to deliver {0} when the total charge of the connected Batteries falls below {1}%",
           "sliderDecimalPlaces": 0,
           "defaultValue": 50,
           "id": "SingleSliderSideScreen",
@@ -7624,8 +7624,8 @@
           "title": "Logic Activation Parameters",
           "activateSliderLabelText": "High Threshold:",
           "deactivateSliderLabelText": "Low Threshold:",
-          "activateTooltip": "Sends a <b><style=\"logic_off\">Red Signal</style></b> when reservoir is <b>{0}%</b> full, until it is less than <b>{1}% (Low Threshold)</b> full",
-          "deactivateTooltip": "Sends a <b><style=\"logic_on\">Green Signal</style></b> when reservoir is less than <b>{0}%</b> full, until it is <b>{1}% (High Threshold)</b> full",
+          "activateTooltip": "Sends a Red Signal when reservoir is {0}% full, until it is less than {1}% (Low Threshold) full",
+          "deactivateTooltip": "Sends a Green Signal when reservoir is less than {0}% full, until it is {1}% (High Threshold) full",
           "id": "ActiveRangeSideScreen",
           "inputs": [
             "number",
@@ -7917,8 +7917,8 @@
       "uiScreens": [
         {
           "title": "Critter Count Sensor",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if there are more than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword\">Eggs</style> in the room",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if there are fewer than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword\">Eggs</style> in the room",
+          "aboveToolTip": "Will send a Green Signal if there are more than {0} Critters or Eggs in the room",
+          "belowToolTip": "Will send a Green Signal if there are fewer than {0} Critters or Eggs in the room",
           "thresholdValueName": "Count",
           "thresholdValueUnits": "",
           "rangeMin": 0,
@@ -7985,8 +7985,8 @@
       "uiScreens": [
         {
           "title": "Germ Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the number of <style=\"KKeyword\">Germs</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the number of <style=\"KKeyword\">Germs</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the number of Germs is above {0}",
+          "belowToolTip": "Will send a Green Signal if the number of Germs is below {0}",
           "thresholdValueName": "Germs",
           "thresholdValueUnits": "germs",
           "rangeMin": 0,
@@ -8472,7 +8472,7 @@
           "sliderUnits": " s",
           "min": 0.1,
           "max": 200,
-          "tooltip": "Will continue to send a <b><style=\"logic_on\">Green Signal</style></b> for <b>{0} seconds</b> after receiving a <b><style=\"logic_off\">Red Signal</style></b>",
+          "tooltip": "Will continue to send a Green Signal for {0} seconds after receiving a Red Signal",
           "sliderDecimalPlaces": 1,
           "defaultValue": 5,
           "id": "SingleSliderSideScreen",
@@ -8544,7 +8544,7 @@
           "sliderUnits": " s",
           "min": 0.1,
           "max": 200,
-          "tooltip": "Will only send a <b><style=\"logic_on\">Green Signal</style></b> if it receives <b><style=\"logic_on\">Green</style></b> for longer than <b>{0} seconds</b>",
+          "tooltip": "Will only send a Green Signal if it receives Green for longer than {0} seconds",
           "sliderDecimalPlaces": 1,
           "defaultValue": 5,
           "id": "SingleSliderSideScreen",
@@ -8943,8 +8943,8 @@
       "uiScreens": [
         {
           "title": "Pressure Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the Pressure is above {0}",
+          "belowToolTip": "Will send a Green Signal if the Pressure is below {0}",
           "thresholdValueName": "Pressure",
           "thresholdValueUnits": " g",
           "rangeMin": 0,
@@ -9011,8 +9011,8 @@
       "uiScreens": [
         {
           "title": "Pressure Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the Pressure is above {0}",
+          "belowToolTip": "Will send a Green Signal if the Pressure is below {0}",
           "thresholdValueName": "Pressure",
           "thresholdValueUnits": " Kg",
           "rangeMin": 0,
@@ -9633,7 +9633,7 @@
       "uiScreens": [
         {
           "title": "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_TITLE",
-          "description": "Selected <b>Bit</b>'s <b>Signal</b> will be read by the <b>Output Port</b>.",
+          "description": "Selected Bit's Signal will be read by the Output Port.",
           "id": "LogicBitSelectorSideScreen",
           "inputs": [
             "number"
@@ -9700,7 +9700,7 @@
       "uiScreens": [
         {
           "title": "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_WRITER_TITLE",
-          "description": "Received <b>Signal</b> will be written to selected <b>Bit</b>",
+          "description": "Received Signal will be written to selected Bit",
           "id": "LogicBitSelectorSideScreen",
           "inputs": [
             "number"
@@ -9809,8 +9809,8 @@
       "uiScreens": [
         {
           "title": "Temperature Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the ambient Temperature is above {0}",
+          "belowToolTip": "Will send a Green Signal if the ambient Temperature is below {0}",
           "thresholdValueName": "Temperature",
           "thresholdValueUnits": " ºC",
           "rangeMin": 0,
@@ -9977,8 +9977,8 @@
       "uiScreens": [
         {
           "title": "Wattage Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Wattage</style> consumed is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Wattage</style> consumed is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the Wattage consumed is above {0}",
+          "belowToolTip": "Will send a Green Signal if the Wattage consumed is below {0}",
           "thresholdValueName": "Watts",
           "thresholdValueUnits": " W",
           "rangeMin": 0,
@@ -10284,7 +10284,7 @@
           "sliderUnits": "%",
           "min": 0,
           "max": 100,
-          "tooltip": "Duplicants will be requested to operate this generator when the total charge of the connected <style=\"KKeyword\">Batteries</style> falls below <b>{0}%</b>",
+          "tooltip": "Duplicants will be requested to operate this generator when the total charge of the connected Batteries falls below {0}%",
           "sliderDecimalPlaces": 0,
           "defaultValue": 50,
           "id": "SingleSliderSideScreen",
@@ -10441,8 +10441,8 @@
           "title": "Breaktime Policy",
           "activateSliderLabelText": "Break starts at:",
           "deactivateSliderLabelText": "Break ends at:",
-          "activateTooltip": "Duplicants must take a massage break when their <style=\"KKeyword\">Stress</style> reaches {0}%",
-          "deactivateTooltip": "Breaktime ends when <style=\"KKeyword\">Stress</style> is reduced to {0}%",
+          "activateTooltip": "Duplicants must take a massage break when their Stress reaches {0}%",
+          "deactivateTooltip": "Breaktime ends when Stress is reduced to {0}%",
           "id": "ActiveRangeSideScreen",
           "inputs": [
             "number",
@@ -10612,7 +10612,7 @@
           "sliderUnits": "%",
           "min": 0,
           "max": 100,
-          "tooltip": "A Duplicant may not use this cot until their <style=\"KKeyword\">Health</style> falls below <b>{0}%</b>",
+          "tooltip": "A Duplicant may not use this cot until their Health falls below {0}%",
           "sliderDecimalPlaces": 0,
           "defaultValue": 70,
           "id": "SingleSliderSideScreen",
@@ -11517,7 +11517,7 @@
           "sliderUnits": "%",
           "min": 0,
           "max": 100,
-          "tooltip": "Duplicants will be requested to release backpressure buildup when it exceeds <b>{0}%</b>",
+          "tooltip": "Duplicants will be requested to release backpressure buildup when it exceeds {0}%",
           "sliderDecimalPlaces": 0,
           "defaultValue": 75,
           "id": "SingleSliderSideScreen",
@@ -12638,8 +12638,8 @@
       "uiScreens": [
         {
           "title": "Pressure Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the Pressure is above {0}",
+          "belowToolTip": "Will send a Green Signal if the Pressure is below {0}",
           "thresholdValueName": "Pressure",
           "thresholdValueUnits": " g",
           "rangeMin": 0,
@@ -12697,8 +12697,8 @@
       "uiScreens": [
         {
           "title": "Pressure Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the <style=\"KKeyword\">Pressure</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the Pressure is above {0}",
+          "belowToolTip": "Will send a Green Signal if the Pressure is below {0}",
           "thresholdValueName": "Pressure",
           "thresholdValueUnits": " Kg",
           "rangeMin": 0,
@@ -13919,8 +13919,8 @@
       "uiScreens": [
         {
           "title": "Germ Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the number of <style=\"KKeyword\">Germs</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the number of <style=\"KKeyword\">Germs</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the number of Germs is above {0}",
+          "belowToolTip": "Will send a Green Signal if the number of Germs is below {0}",
           "thresholdValueName": "Germs",
           "thresholdValueUnits": "germs",
           "rangeMin": 0,
@@ -14039,8 +14039,8 @@
       "uiScreens": [
         {
           "title": "Temperature Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the ambient Temperature is above {0}",
+          "belowToolTip": "Will send a Green Signal if the ambient Temperature is below {0}",
           "thresholdValueName": "Temperature",
           "thresholdValueUnits": " ºC",
           "rangeMin": 0,
@@ -15209,8 +15209,8 @@
       "uiScreens": [
         {
           "title": "Temperature Threshold",
-          "aboveToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is above <b>{0}</b>",
-          "belowToolTip": "Will send a <b><style=\"logic_on\">Green Signal</style></b> if the ambient <style=\"KKeyword\">Temperature</style> is below <b>{0}</b>",
+          "aboveToolTip": "Will send a Green Signal if the ambient Temperature is above {0}",
+          "belowToolTip": "Will send a Green Signal if the ambient Temperature is below {0}",
           "thresholdValueName": "Temperature",
           "thresholdValueUnits": " ºC",
           "rangeMin": 0,
@@ -16616,7 +16616,7 @@
           "sliderUnits": "%",
           "min": 0,
           "max": 100,
-          "tooltip": "Duplicants will be requested to deliver <style=\"KKeyword\">{0}</style> when the total charge of the connected <style=\"KKeyword\">Batteries</style> falls below <b>{1}%</b>",
+          "tooltip": "Duplicants will be requested to deliver {0} when the total charge of the connected Batteries falls below {1}%",
           "sliderDecimalPlaces": 0,
           "defaultValue": 50,
           "id": "SingleSliderSideScreen",
