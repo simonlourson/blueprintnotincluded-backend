@@ -39,14 +39,14 @@ use admin
 sudo node build/server.js
 
 sudo /opt/bitnami/nodejs/bin/forever list
-sudo /opt/bitnami/nodejs/bin/forever stop 21012
+sudo /opt/bitnami/nodejs/bin/forever stop 21568
 cd /opt/bitnami/apps/blueprintnotincluded-backend/
 sudo npm install
 sudo git reset --hard
 sudo git pull
 sudo vi .env (change to production)
-sudo /opt/bitnami/nodejs/bin/forever start -e ../logs/err_20191230.log -o ../logs/out_20191230.log build/server.js
-tail -f ../logs/err_20191230.log ../logs/out_20191230.log
+sudo /opt/bitnami/nodejs/bin/forever start -e ../logs/err_20200811.log -o ../logs/out_20200811.log build/server.js
+tail -f ../logs/err_20200811.log ../logs/out_20200811.log
 
 sudo npm run updateBasedOn
 sudo npm run updatePositionCorrection
@@ -54,8 +54,8 @@ sudo npm run updatePositionCorrection
 mongoexport --collection=blueprints --db=blueprintnotincluded --out=blueprints_20191206.json
 mongoexport --collection=users --db=blueprintnotincluded --out=users_20191206.json
 
-sudo mongoexport --collection=blueprints --db=blueprintnotincluded --out=blueprints_20191227.json
-sudo mongoexport --collection=users --db=blueprintnotincluded --out=users_20191227.json
+sudo mongoexport --collection=blueprints --db=blueprintnotincluded --out=blueprints_20200811.json
+sudo mongoexport --collection=users --db=blueprintnotincluded --out=users_20200811.json
 
 mongoimport /drop /collection:blueprints /db:blueprintnotincluded /file:blueprints_20191218.json
 mongoimport /drop /collection:users /db:blueprintnotincluded /file:users_20191212.json
