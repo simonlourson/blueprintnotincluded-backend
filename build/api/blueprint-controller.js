@@ -303,7 +303,7 @@ var BlueprintController = /** @class */ (function () {
                 var ownedByMe = false;
                 if (userId != null && ownerId == userId)
                     ownedByMe = true;
-                console.log(userId + '_' + ownerId);
+                //console.log(userId + '_' + ownerId)
                 var nbLikes = 0;
                 if (blueprint.likes != null)
                     nbLikes = blueprint.likes.length;

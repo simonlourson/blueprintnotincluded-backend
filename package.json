@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc",
+    "tsc": "tsc -b",
     "dev": "ts-node-dev --respawn --transpileOnly ./app/server.ts",
     "prod": "tsc -b && node ./build/server.js",
     "updateBasedOn": "tsc && node ./build/api/batch/update-based-on.js",
@@ -15,6 +15,7 @@
     "generateWhite": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-white.ts",
     "generateRepack": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/generate-repack.ts",
     "fixHtmlLabels": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/fix-html-labels.ts",
+    "addInfoIcons": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/add-info-icons.ts",
     "testCanvas": "ts-node-dev --expose_gc --max_old_space_size=4096 --transpileOnly ./app/api/batch/test-canvas.ts"
   },
   "author": "",

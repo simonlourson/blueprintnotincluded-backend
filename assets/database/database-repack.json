@@ -117556,6 +117556,22 @@
         0,
         26
       ]
+    },
+    {
+      "name": "info_back",
+      "spriteInfoName": "info_back",
+      "translation": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      },
+      "rotation": 0,
+      "tags": [
+        27
+      ]
     }
   ],
   "buildMenuCategories": [
