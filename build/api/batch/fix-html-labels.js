@@ -23,6 +23,8 @@ var FixHtmlLabels = /** @class */ (function () {
         var database = JSON.parse(rawdata);
         for (var _i = 0, _a = database.buildings; _i < _a.length; _i++) {
             var building = _a[_i];
+            building.name = this.stripHtml(building.name);
+            console.log(building.name);
             for (var _b = 0, _c = building.uiScreens; _b < _c.length; _b++) {
                 var uiScreen = _c[_b];
                 if (uiScreen.id == 'ActiveRangeSideScreen') {
@@ -53,6 +55,11 @@ var FixHtmlLabels = /** @class */ (function () {
                     console.log(uiScreen.id);
             }
         }
+        for (var _d = 0, _e = database.elements; _d < _e.length; _d++) {
+            var element = _e[_d];
+            element.name = this.stripHtml(element.name);
+            console.log(element.name);
+        }
         var data = JSON.stringify(database, null, 2);
         fs.writeFileSync(path, data);
         console.log('done fixing labels');
@@ -65,5 +72,5 @@ var FixHtmlLabels = /** @class */ (function () {
     return FixHtmlLabels;
 }());
 exports.FixHtmlLabels = FixHtmlLabels;
-// npm run fixHtmlLabels -- database-repack.json
+// npm run fixHtmlLabels -- database.json
 new FixHtmlLabels();

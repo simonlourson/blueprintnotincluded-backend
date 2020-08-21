@@ -144,5 +144,5 @@ export class GenerateRepack
   }
 }
 
-
+// npm run generateRepack
 new GenerateRepack()

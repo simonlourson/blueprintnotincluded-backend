@@ -59,7 +59,7 @@ export class GenerateGroups
 
     for (let oniItem of OniItem.oniItems) {
 
-      if (oniItem.id == 'Element') continue;
+      if (oniItem.id == OniItem.elementId || oniItem.id == OniItem.infoId) continue;
 
       let buildingInDatabase = database.buildings.find((building) => { return building.prefabId == oniItem.id });
       if (buildingInDatabase == undefined) throw new Error('GenerateGroups.generateGroups : building not found : ' + oniItem.id);
@@ -195,5 +195,5 @@ export class GenerateGroups
 
 }
 
-
+// npm run generateGroups
 new GenerateGroups()

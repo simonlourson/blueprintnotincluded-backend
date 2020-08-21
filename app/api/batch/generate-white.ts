@@ -118,5 +118,5 @@ export class GenerateWhite
 
 }
 
-
+// npm run generateWhite
 new GenerateWhite()

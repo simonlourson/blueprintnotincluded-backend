@@ -62,7 +62,7 @@ export class GenerateIcons
       // Only generate icons for sprite not in the texture atlases
       if (!uiSpriteInfo.isIcon || uiSpriteInfo.isInputOutput) continue;
 
-      console.log('generating icon for ' + k);
+      //console.log('generating icon for ' + k);
 
       if (k == 'electrical_disconnected') console.log(uiSpriteInfo)
 
@@ -107,4 +107,5 @@ export class GenerateIcons
   }
 }
 
+// npm run generateIcons
 new GenerateIcons()

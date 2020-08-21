@@ -100,7 +100,7 @@ var GenerateIcons = /** @class */ (function () {
                         // Only generate icons for sprite not in the texture atlases
                         if (!uiSpriteInfo.isIcon || uiSpriteInfo.isInputOutput)
                             return [3 /*break*/, 4];
-                        console.log('generating icon for ' + k);
+                        //console.log('generating icon for ' + k);
                         if (k == 'electrical_disconnected')
                             console.log(uiSpriteInfo);
                         texture = uiSpriteInfo.getTexture(pixiNodeUtil);
@@ -146,4 +146,5 @@ var GenerateIcons = /** @class */ (function () {
     return GenerateIcons;
 }());
 exports.GenerateIcons = GenerateIcons;
+// npm run generateIcons
 new GenerateIcons();

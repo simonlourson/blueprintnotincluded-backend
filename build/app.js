@@ -12,6 +12,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var dotenv_1 = __importDefault(require("dotenv"));
 var express_1 = __importDefault(require("express"));
+var helmet_1 = __importDefault(require("helmet"));
 var routes_1 = require("./routes");
 var db_1 = require("./api/db");
 var request_ip_1 = __importDefault(require("request-ip"));
@@ -26,7 +27,7 @@ var App = /** @class */ (function () {
         dotenv_1.default.config();
         console.log(process.env.ENV_NAME);
         // Read database
-        var rawdata = fs.readFileSync('database.json').toString();
+        var rawdata = fs.readFileSync('assets/database/database.json').toString();
         var json = JSON.parse(rawdata);
         index_1.ImageSource.init();
         var elements = json.elements;
@@ -52,6 +53,17 @@ var App = /** @class */ (function () {
         this.auth = new auth_1.Auth();
         // Create a new express application instance and add middleware
         this.app = express_1.default();
+        this.app.use(helmet_1.default.contentSecurityPolicy({
+            directives: {
+                "default-src": ["'self'"],
+                "style-src": ["'self'", "'unsafe-inline'"],
+                "frame-src": ["'self'", "https://www.google.com", "http://localhost:4200"],
+                "img-src": ["'self'", "data:"],
+                "script-src": ["'self'", "'unsafe-eval'", "https://www.google.com", "https://www.gstatic.com"],
+                "script-src-elem": ["'self'", "https://www.google.com", "https://www.gstatic.com"],
+                "frame-ancestors": ["'self'", "https://oxygennotincluded.gamepedia.com"]
+            },
+        }));
         this.app.use(request_ip_1.default.mw());
         this.app.use(express_1.default.json({ limit: '1mb' }));
         this.app.use(passport_1.default.initialize());

@@ -181,4 +181,5 @@ var GenerateRepack = /** @class */ (function () {
     return GenerateRepack;
 }());
 exports.GenerateRepack = GenerateRepack;
+// npm run generateRepack
 new GenerateRepack();

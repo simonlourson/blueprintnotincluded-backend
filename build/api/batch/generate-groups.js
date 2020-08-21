@@ -96,7 +96,7 @@ var GenerateGroups = /** @class */ (function () {
                             return __generator(this, function (_f) {
                                 switch (_f.label) {
                                     case 0:
-                                        if (oniItem.id == 'Element')
+                                        if (oniItem.id == blueprintnotincluded_lib_1.OniItem.elementId || oniItem.id == blueprintnotincluded_lib_1.OniItem.infoId)
                                             return [2 /*return*/, "continue"];
                                         buildingInDatabase = database.buildings.find(function (building) { return building.prefabId == oniItem.id; });
                                         if (buildingInDatabase == undefined)
@@ -236,4 +236,5 @@ var GenerateGroups = /** @class */ (function () {
     return GenerateGroups;
 }());
 exports.GenerateGroups = GenerateGroups;
+// npm run generateGroups
 new GenerateGroups();

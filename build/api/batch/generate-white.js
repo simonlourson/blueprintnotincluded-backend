@@ -164,4 +164,5 @@ var GenerateWhite = /** @class */ (function () {
     return GenerateWhite;
 }());
 exports.GenerateWhite = GenerateWhite;
+// npm run generateWhite
 new GenerateWhite();

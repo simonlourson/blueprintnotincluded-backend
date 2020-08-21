@@ -1,5 +1,6 @@
 import dotenv from 'dotenv';
 import express from 'express';
+import helmet from 'helmet';
 import path from 'path';
 import { Routes } from './routes';
 import { Database } from './api/db';
@@ -60,6 +61,18 @@ class App
 
     // Create a new express application instance and add middleware
     this.app = express();
+    
+    this.app.use(helmet.contentSecurityPolicy({
+      directives: {
+        "default-src": ["'self'"],
+        "style-src": ["'self'", "'unsafe-inline'"],
+        "frame-src": ["'self'", "https://www.google.com", "http://localhost:4200"],
+        "img-src": ["'self'", "data:"],
+        "script-src": ["'self'", "'unsafe-eval'", "https://www.google.com", "https://www.gstatic.com"],
+        "script-src-elem": ["'self'", "https://www.google.com", "https://www.gstatic.com"],
+        "frame-ancestors": ["'self'", "https://oxygennotincluded.gamepedia.com"]
+      },    
+    }));
     this.app.use(requestIp.mw());
     this.app.use(express.json({limit:'1mb'}));
     this.app.use(passport.initialize());

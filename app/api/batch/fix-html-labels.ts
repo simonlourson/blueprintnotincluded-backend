@@ -29,6 +29,8 @@ export class FixHtmlLabels
     let database = JSON.parse(rawdata) as BExport;
 
     for (let building of database.buildings) {
+      building.name = this.stripHtml(building.name);
+      console.log(building.name);
       for (let uiScreen of building.uiScreens) {
         if (uiScreen.id == 'ActiveRangeSideScreen') {
           let activeRangeSideScreen = uiScreen as BActiveRangeSideScreen;
@@ -56,6 +58,11 @@ export class FixHtmlLabels
       }
     }
 
+    for (let element of database.elements) {
+      element.name = this.stripHtml(element.name);
+      console.log(element.name);
+    }
+
     let data = JSON.stringify(database, null, 2);
     fs.writeFileSync(path, data);
     
@@ -70,5 +77,5 @@ export class FixHtmlLabels
   }
 }
 
-// npm run fixHtmlLabels -- database-repack.json
+// npm run fixHtmlLabels -- database.json
 new FixHtmlLabels()
