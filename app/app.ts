@@ -70,7 +70,7 @@ class App
         "img-src": ["'self'", "data:"],
         "script-src": ["'self'", "'unsafe-eval'", "https://www.google.com", "https://www.gstatic.com"],
         "script-src-elem": ["'self'", "https://www.google.com", "https://www.gstatic.com"],
-        "frame-ancestors": ["'self'", "https://oxygennotincluded.gamepedia.com"]
+        "frame-ancestors": ["'self'", "https://oxygennotincluded.fandom.com"]
       },    
     }));
     this.app.use(requestIp.mw());
