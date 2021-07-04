@@ -16,9 +16,13 @@ class NodeCanvasResource extends resources.BaseImageResource
 export class PixiNodeUtil implements PixiUtil {
   
   pixiApp: PIXI.Application;
+  pixiGraphicsBack: PIXI.Graphics;
+  pixiGraphicsFront: PIXI.Graphics;
   
   constructor(options: any) {
     this.pixiApp = new PIXI.Application(options);
+    this.pixiGraphicsFront = this.getNewGraphics();
+    this.pixiGraphicsBack = this.getNewGraphics();
   }
   
   getNewPixiApp(options: any) {
@@ -53,6 +57,14 @@ export class PixiNodeUtil implements PixiUtil {
 
   getNewRectangle(x1: number, y1: number, x2: number, y2: number) {
     return new PIXI.Rectangle(x1, y1, x2, y2);
+  }
+
+  getUtilityGraphicsBack(): any {
+    return this.pixiGraphicsBack;
+  }
+
+  getUtilityGraphicsFront(): any {
+    return this.pixiGraphicsFront;
   }
 
   async initTextures() {

@@ -60,8 +60,14 @@ sudo mongoexport --collection=users --db=blueprintnotincluded --out=users_202008
 sudo mongoexport --collection=blueprints --db=blueprintnotincluded --out=blueprints_20201208.json
 sudo mongoexport --collection=users --db=blueprintnotincluded --out=users_20201208.json
 
+sudo mongoexport --collection=blueprints --db=blueprintnotincluded --out=blueprints_20210704.json
+sudo mongoexport --collection=users --db=blueprintnotincluded --out=users_20210704.json
+
 mongoimport /drop /collection:blueprints /db:blueprintnotincluded /file:blueprints_20201208.json
 mongoimport /drop /collection:users /db:blueprintnotincluded /file:users_20201208.json
+
+mongoimport /drop /collection:blueprints /db:blueprintnotincluded /file:blueprints_20210704.json
+mongoimport /drop /collection:users /db:blueprintnotincluded /file:users_20210704.json
 
 # 20191204
 use blueprintnotincluded
@@ -156,3 +162,12 @@ sudo su
 sudo npm install
 
 tar czvf primeng.tar.gz primeng/
+
+# Build from extract
+# Copy assets/manual/
+npm run fixHtmlLabels -- database.json
+npm run addInfoIcons -- database.json
+npm run generateIcons
+npm run generateGroups
+npm run generateWhite
+npm run generateRepack

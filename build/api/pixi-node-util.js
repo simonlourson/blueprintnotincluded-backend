@@ -67,6 +67,8 @@ var NodeCanvasResource = /** @class */ (function (_super) {
 var PixiNodeUtil = /** @class */ (function () {
     function PixiNodeUtil(options) {
         this.pixiApp = new PIXI.Application(options);
+        this.pixiGraphicsFront = this.getNewGraphics();
+        this.pixiGraphicsBack = this.getNewGraphics();
     }
     PixiNodeUtil.prototype.getNewPixiApp = function (options) {
         return this.pixiApp;
@@ -98,6 +100,12 @@ var PixiNodeUtil = /** @class */ (function () {
     };
     PixiNodeUtil.prototype.getNewRectangle = function (x1, y1, x2, y2) {
         return new PIXI.Rectangle(x1, y1, x2, y2);
+    };
+    PixiNodeUtil.prototype.getUtilityGraphicsBack = function () {
+        return this.pixiGraphicsBack;
+    };
+    PixiNodeUtil.prototype.getUtilityGraphicsFront = function () {
+        return this.pixiGraphicsFront;
     };
     PixiNodeUtil.prototype.initTextures = function () {
         return __awaiter(this, void 0, void 0, function () {
