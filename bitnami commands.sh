@@ -45,8 +45,8 @@ sudo npm install
 sudo git reset --hard
 sudo git pull
 sudo vi .env (change to production)
-sudo /opt/bitnami/nodejs/bin/forever start -e ../logs/err.20210611.log -o ../logs/out.20210611.log build/server.js
-tail -f ../logs/err.20210611.log ../logs/out.20210611.log
+sudo /opt/bitnami/nodejs/bin/forever start -e ../logs/err.20210704.log -o ../logs/out.20210704.log build/server.js
+tail -f ../logs/err.20210704.log ../logs/out.20210704.log
 
 sudo npm run updateBasedOn
 sudo npm run updatePositionCorrection
