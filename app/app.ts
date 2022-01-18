@@ -63,16 +63,17 @@ class App
     this.app = express();
     
     this.app.use(helmet.contentSecurityPolicy({
-      directives: {
-        "default-src": ["'self'"],
-        "style-src": ["'self'", "'unsafe-inline'"],
-        "frame-src": ["'self'", "https://www.google.com", "http://localhost:4200"],
-        "img-src": ["'self'", "data:"],
-        "script-src": ["'self'", "'unsafe-eval'", "https://www.google.com", "https://www.gstatic.com"],
-        "script-src-elem": ["'self'", "https://www.google.com", "https://www.gstatic.com"],
-        "frame-ancestors": ["'self'", "https://oxygennotincluded.fandom.com"]
-      },    
+      directives: {
+        "default-src": ["'self'"],
+        "style-src": ["'self'", "'unsafe-inline'"],
+        "frame-src": ["https://www.google.com", "http://localhost:4200"],
+        "img-src": ["'self'", "data:"],
+        "script-src": ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://www.google.com", "https://www.gstatic.com"],
+        "script-src-elem": ["'self'", "https://www.google.com", "https://www.gstatic.com"],
+        "frame-ancestors": ["'self'", "https://oxygennotincluded.fandom.com"]
+      },
     }));
+
     this.app.use(requestIp.mw());
     this.app.use(express.json({limit:'1mb'}));
     this.app.use(passport.initialize());
