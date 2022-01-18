@@ -8,7 +8,7 @@ export class Auth
   {
     let localStrategy = new Strategy(
       function(username, password, done) {
-        UserModel.model.findOne({ username: username }, function (err, user) {
+        UserModel.model.findOne({ username: username }, undefined, undefined, function (err, user) {
           
           if (err) { return done(err); }
           

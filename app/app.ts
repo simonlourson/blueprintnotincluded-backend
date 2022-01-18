@@ -15,9 +15,7 @@ class App
   public db: Database;
   public app: express.Application;
   public auth: Auth;
-  public routePrv: Routes = new Routes();
-
-  
+  public routePrv: Routes | undefined  = undefined;
 
   constructor() {
 
@@ -25,9 +23,11 @@ class App
     dotenv.config();
     console.log(process.env.ENV_NAME);
 
+    this.routePrv = new Routes()
+
     // Read database
-    let rawdata = fs.readFileSync('assets/database/database.json').toString();
-    let json = JSON.parse(rawdata);
+    let rawData = fs.readFileSync('assets/database/database.json').toString();
+    let json = JSON.parse(rawData);
 
     ImageSource.init();
 
