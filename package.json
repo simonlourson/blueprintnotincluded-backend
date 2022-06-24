@@ -31,7 +31,7 @@
     "express-recaptcha": "^5.0.1",
     "helmet": "^4.1.0",
     "jimp": "^0.14.0",
-    "jsdom": "^16.3.0",
+    "jsdom": "^16.5.0",
     "jsdom-global": "^3.0.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.7",
